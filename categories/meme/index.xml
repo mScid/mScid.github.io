@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meme on Dinan</title>
+    <link>http://localhost:1313/categories/meme/</link>
+    <description>Recent content in Meme on Dinan</description>
+    <generator>Hugo -- gohugo.io</generator>
+      <language>en</language>
+      <copyright>© Dinan Mariano</copyright>
+      <lastBuildDate>Tue, 26 Mar 2024 00:04:14 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/meme/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Follow my meme page on Facebook!</title>
+      <link>http://localhost:1313/posts/first-post/</link>
+      <pubDate>Tue, 26 Mar 2024 00:04:14 +0800</pubDate>
+
+      <guid>http://localhost:1313/posts/first-post/</guid>
+      <description>Please like Wilposting on Facebook thanks!
+Yes it&amp;rsquo;s a meme page I created along with my friends. LMAO</description>
+      <content>&lt;p&gt;Please like &lt;a href=&#34;https://www.facebook.com/kuyawilposting/&#34;&gt;Wilposting&lt;/a&gt; on Facebook thanks!&lt;/p&gt;
+&lt;p&gt;Yes it&amp;rsquo;s a meme page I created along with my friends. LMAO&lt;/p&gt;
+</content>
+    </item>
+  </channel>
+</rss>

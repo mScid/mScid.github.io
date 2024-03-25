@@ -2,8 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://mScid.github.io/tags/academic-review/</loc>
+    <lastmod>2024-03-26T05:33:19+08:00</lastmod>
+  </url><url>
+    <loc>https://mScid.github.io/posts/academic-review/</loc>
+    <lastmod>2024-03-26T05:33:19+08:00</lastmod>
+  </url><url>
+    <loc>https://mScid.github.io/categories/</loc>
+    <lastmod>2024-03-26T05:33:19+08:00</lastmod>
+  </url><url>
+    <loc>https://mScid.github.io/categories/learn/</loc>
+    <lastmod>2024-03-26T05:33:19+08:00</lastmod>
+  </url><url>
     <loc>https://mScid.github.io/</loc>
-    <lastmod>2024-03-26T02:07:13+08:00</lastmod>
+    <lastmod>2024-03-26T05:33:19+08:00</lastmod>
+  </url><url>
+    <loc>https://mScid.github.io/tags/</loc>
+    <lastmod>2024-03-26T05:33:19+08:00</lastmod>
+  </url><url>
+    <loc>https://mScid.github.io/tags/teaching/</loc>
+    <lastmod>2024-03-26T05:33:19+08:00</lastmod>
+  </url><url>
+    <loc>https://mScid.github.io/categories/teaching/</loc>
+    <lastmod>2024-03-26T05:33:19+08:00</lastmod>
   </url><url>
     <loc>https://mScid.github.io/posts/</loc>
     <lastmod>2024-03-26T02:07:13+08:00</lastmod>
@@ -14,21 +35,19 @@
     <loc>https://mScid.github.io/docs/</loc>
     <lastmod>2024-03-26T01:58:33+08:00</lastmod>
   </url><url>
-    <loc>https://mScid.github.io/tags/facebook/</loc>
-    <lastmod>2024-03-26T00:52:01+08:00</lastmod>
+    <loc>https://mScid.github.io/categories/facebook/</loc>
+    <lastmod>2024-03-26T00:04:14+08:00</lastmod>
   </url><url>
     <loc>https://mScid.github.io/posts/first-post/</loc>
-    <lastmod>2024-03-26T00:52:01+08:00</lastmod>
+    <lastmod>2024-03-26T00:04:14+08:00</lastmod>
   </url><url>
-    <loc>https://mScid.github.io/tags/page/</loc>
-    <lastmod>2024-03-26T00:52:01+08:00</lastmod>
+    <loc>https://mScid.github.io/categories/funny/</loc>
+    <lastmod>2024-03-26T00:04:14+08:00</lastmod>
   </url><url>
-    <loc>https://mScid.github.io/tags/</loc>
-    <lastmod>2024-03-26T00:52:01+08:00</lastmod>
+    <loc>https://mScid.github.io/tags/meme/</loc>
+    <lastmod>2024-03-26T00:04:14+08:00</lastmod>
   </url><url>
     <loc>https://mScid.github.io/about/</loc>
-  </url><url>
-    <loc>https://mScid.github.io/categories/</loc>
   </url><url>
     <loc>https://mScid.github.io/cv/</loc>
   </url>

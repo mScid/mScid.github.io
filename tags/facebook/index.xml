@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Facebook on Dinan</title>
-    <link>https://mScid.github.io/tags/facebook/</link>
+    <link>http://localhost:1313/tags/facebook/</link>
     <description>Recent content in Facebook on Dinan</description>
     <generator>Hugo -- gohugo.io</generator>
       <language>en</language>
       <copyright>© Dinan Mariano</copyright>
-      <lastBuildDate>Tue, 26 Mar 2024 00:52:01 +0800</lastBuildDate><atom:link href="https://mScid.github.io/tags/facebook/index.xml" rel="self" type="application/rss+xml" />
+      <lastBuildDate>Tue, 26 Mar 2024 00:52:01 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/facebook/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Follow my page on Facebook!</title>
-      <link>https://mScid.github.io/posts/first-post/</link>
+      <link>http://localhost:1313/posts/first-post/</link>
       <pubDate>Tue, 26 Mar 2024 00:52:01 +0800</pubDate>
 
-      <guid>https://mScid.github.io/posts/first-post/</guid>
+      <guid>http://localhost:1313/posts/first-post/</guid>
       <description>Please like Wilposting on Facebook ty</description>
       <content>&lt;p&gt;Please like &lt;a href=&#34;https://www.facebook.com/kuyawilposting/&#34;&gt;Wilposting&lt;/a&gt; on Facebook ty&lt;/p&gt;
 </content>

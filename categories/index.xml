@@ -6,6 +6,43 @@
     <description>Recent content in Categories on Dinan</description>
     <generator>Hugo -- gohugo.io</generator>
       <language>en</language>
-      <copyright>© Dinan Mariano</copyright><atom:link href="https://mScid.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+      <copyright>© Dinan Mariano</copyright>
+      <lastBuildDate>Tue, 26 Mar 2024 05:33:19 +0800</lastBuildDate><atom:link href="https://mScid.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learn</title>
+      <link>https://mScid.github.io/categories/learn/</link>
+      <pubDate>Tue, 26 Mar 2024 05:33:19 +0800</pubDate>
+
+      <guid>https://mScid.github.io/categories/learn/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    <item>
+      <title>Teaching</title>
+      <link>https://mScid.github.io/categories/teaching/</link>
+      <pubDate>Tue, 26 Mar 2024 05:33:19 +0800</pubDate>
+
+      <guid>https://mScid.github.io/categories/teaching/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    <item>
+      <title>Facebook</title>
+      <link>https://mScid.github.io/categories/facebook/</link>
+      <pubDate>Tue, 26 Mar 2024 00:04:14 +0800</pubDate>
+
+      <guid>https://mScid.github.io/categories/facebook/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    <item>
+      <title>Funny</title>
+      <link>https://mScid.github.io/categories/funny/</link>
+      <pubDate>Tue, 26 Mar 2024 00:04:14 +0800</pubDate>
+
+      <guid>https://mScid.github.io/categories/funny/</guid>
+      <description></description>
+      <content></content>
+    </item>
   </channel>
 </rss>
