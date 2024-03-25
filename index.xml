@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Me on Dinan</title>
+    <link>https://mScid.github.io/</link>
+    <description>Recent content in Me on Dinan</description>
+    <generator>Hugo -- gohugo.io</generator>
+      <language>en</language>
+      <copyright>© Dinan Mariano</copyright>
+      <lastBuildDate>Tue, 26 Mar 2024 02:07:13 +0800</lastBuildDate><atom:link href="https://mScid.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Follow my page on Facebook!</title>
+      <link>https://mScid.github.io/posts/first-post/</link>
+      <pubDate>Tue, 26 Mar 2024 00:52:01 +0800</pubDate>
+
+      <guid>https://mScid.github.io/posts/first-post/</guid>
+      <description>Please like Wilposting on Facebook ty</description>
+      <content>&lt;p&gt;Please like &lt;a href=&#34;https://www.facebook.com/kuyawilposting/&#34;&gt;Wilposting&lt;/a&gt; on Facebook ty&lt;/p&gt;
+</content>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>https://mScid.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+
+      <guid>https://mScid.github.io/about/</guid>
+      <description>I am avid gamer. I play a lot of stuff, mostly singleplayer games, but I play Dota 2 the most, other coop games like Payday 2, and racing games.</description>
+      <content>&lt;p&gt;I am avid gamer. I play a lot of stuff, mostly singleplayer games, but I play Dota 2 the most, other coop games like Payday 2, and racing games.&lt;/p&gt;
+</content>
+    </item>
+    <item>
+      <title>CV</title>
+      <link>https://mScid.github.io/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+
+      <guid>https://mScid.github.io/cv/</guid>
+      <description>ExperienceWork in progress &amp;#39;name&amp;#39;&amp;#39;date&amp;#39;&amp;#39;title&amp;#39;&amp;#39;location&amp;#39;description Skills on that Work: Skill1, Skill2, Skill3
+EducationEducationUniversity of the Philippines Los BañosAug 2019 - PresentBachelor of Science in Applied PhysicsLos Baños, PhilippinesSkillsProgramming Languages:Proficent in Python and Fortran Experience in HTML Graphics:Experience in Adobe Photoshop and Premiere as well as Gimp Problem Solving:Strong problem-solving skills with a logical and analytical approach Experience in troubleshooting and debugging complex technical issues Communication:Excellent verbal and written communication skills Ability to convey technical concepts to non-technical stakeholders effectively Teamwork:Proven ability to work collaboratively in cross-functional teams to achieve project goals.</description>
+      <content>
+&lt;h2 id=&#34;experience&#34;&gt;
+  Experience
+  &lt;a href=&#34;#experience&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;Work in progress
+&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;cv-experience&#34;&gt;
+  &lt;div class=&#34;row lead&#34;&gt;
+    &lt;span&gt;&amp;#39;name&amp;#39;&lt;/span&gt;
+    &lt;span&gt;&amp;#39;date&amp;#39;&lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;row sub&#34;&gt;
+    &lt;span&gt;&amp;#39;title&amp;#39;&lt;/span&gt;
+    &lt;span&gt;&amp;#39;location&amp;#39;&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;description&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Skills on that Work:&lt;/em&gt;  Skill1, Skill2, Skill3&lt;/p&gt;
+
+&lt;h2 id=&#34;education&#34;&gt;
+  Education
+  &lt;a href=&#34;#education&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h2&gt;
+
+&lt;h2 id=&#34;education-1&#34;&gt;
+  Education
+  &lt;a href=&#34;#education-1&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;div class=&#34;cv-experience&#34;&gt;
+  &lt;div class=&#34;row lead&#34;&gt;
+    &lt;span&gt;University of the Philippines Los Baños&lt;/span&gt;
+    &lt;span&gt;Aug 2019 - Present&lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;row sub&#34;&gt;
+    &lt;span&gt;Bachelor of Science in Applied Physics&lt;/span&gt;
+    &lt;span&gt;Los Baños, Philippines&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;skills&#34;&gt;
+  Skills
+  &lt;a href=&#34;#skills&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h2&gt;
+
+&lt;h3 id=&#34;programming-languages&#34;&gt;
+  Programming Languages:
+  &lt;a href=&#34;#programming-languages&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Proficent in Python and Fortran&lt;/li&gt;
+&lt;li&gt;Experience in HTML&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;graphics&#34;&gt;
+  Graphics:
+  &lt;a href=&#34;#graphics&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Experience in Adobe Photoshop and Premiere as well as Gimp&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;problem-solving&#34;&gt;
+  Problem Solving:
+  &lt;a href=&#34;#problem-solving&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Strong problem-solving skills with a logical and analytical approach&lt;/li&gt;
+&lt;li&gt;Experience in troubleshooting and debugging complex technical issues&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;communication&#34;&gt;
+  Communication:
+  &lt;a href=&#34;#communication&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Excellent verbal and written communication skills&lt;/li&gt;
+&lt;li&gt;Ability to convey technical concepts to non-technical stakeholders effectively&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;teamwork&#34;&gt;
+  Teamwork:
+  &lt;a href=&#34;#teamwork&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Proven ability to work collaboratively in cross-functional teams to achieve project goals.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;continuous-learning&#34;&gt;
+  Continuous Learning:
+  &lt;a href=&#34;#continuous-learning&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Passionate about learning new technologies and staying updated with industry trends.&lt;/li&gt;
+&lt;li&gt;Dedication to self-improvement and skill enhancement through online courses, workshops, and projects.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;hobbies&#34;&gt;
+  Hobbies
+  &lt;a href=&#34;#hobbies&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Video Games&lt;/li&gt;
+&lt;li&gt;Coding&lt;/li&gt;
+&lt;li&gt;Making content&lt;/li&gt;
+&lt;li&gt;Music&lt;/li&gt;
+&lt;li&gt;Tinkering with technology&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+  </channel>
+</rss>
