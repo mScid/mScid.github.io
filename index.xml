@@ -34,31 +34,36 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 
       <guid>https://mScid.github.io/cv/</guid>
-      <description>ExperienceWork in progress &amp;#39;name&amp;#39;&amp;#39;date&amp;#39;&amp;#39;title&amp;#39;&amp;#39;location&amp;#39;description Skills on that Work: Skill1, Skill2, Skill3
-EducationEducationUniversity of the Philippines Los BañosAug 2019 - PresentBachelor of Science in Applied PhysicsLos Baños, PhilippinesSkillsProgramming Languages:Proficent in Python and Fortran Experience in HTML Graphics:Experience in Adobe Photoshop and Premiere as well as Gimp Problem Solving:Strong problem-solving skills with a logical and analytical approach Experience in troubleshooting and debugging complex technical issues Communication:Excellent verbal and written communication skills Ability to convey technical concepts to non-technical stakeholders effectively Teamwork:Proven ability to work collaboratively in cross-functional teams to achieve project goals.</description>
+      <description>ExperienceSpecial Program for the Employment of Students (SPES)Summer 2017Human Resources OfficeMunicipal Hall BulalacaoSpecial Program for the Employment of Students (SPES)Summer 2018Budget OfficeMunicipal Hall BulalacaoEducationEducationUniversity of the Philippines Los BañosAug 2019 - PresentBachelor of Science in Applied PhysicsLos Baños, PhilippinesSkillsProgramming Languages:Proficient in Python and Fortran Proficient in LaTeX Experience in HTML 3D PrintingExperience in 3D Printing Linux:Literate in Linux based Operating Systems Advanced skills in Linux Graphics:Experience in Adobe Photoshop and Premiere as well as Gimp Problem Solving:Strong problem-solving skills with a logical and analytical approach Experience in troubleshooting and debugging complex technical issues Communication:Excellent verbal and written communication skills Ability to convey technical concepts to non-technical stakeholders effectively Teamwork:Proven ability to work collaboratively in cross-functional teams to achieve project goals.</description>
       <content>
 &lt;h2 id=&#34;experience&#34;&gt;
   Experience
   &lt;a href=&#34;#experience&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
 &lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;Work in progress
-&lt;/code&gt;&lt;/pre&gt;
 &lt;div class=&#34;cv-experience&#34;&gt;
   &lt;div class=&#34;row lead&#34;&gt;
-    &lt;span&gt;&amp;#39;name&amp;#39;&lt;/span&gt;
-    &lt;span&gt;&amp;#39;date&amp;#39;&lt;/span&gt;
+    &lt;span&gt;Special Program for the Employment of Students (SPES)&lt;/span&gt;
+    &lt;span&gt;Summer 2017&lt;/span&gt;
   &lt;/div&gt;
 
   &lt;div class=&#34;row sub&#34;&gt;
-    &lt;span&gt;&amp;#39;title&amp;#39;&lt;/span&gt;
-    &lt;span&gt;&amp;#39;location&amp;#39;&lt;/span&gt;
+    &lt;span&gt;Human Resources Office&lt;/span&gt;
+    &lt;span&gt;Municipal Hall Bulalacao&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;ul&gt;
-&lt;li&gt;description&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;em&gt;Skills on that Work:&lt;/em&gt;  Skill1, Skill2, Skill3&lt;/p&gt;
+&lt;div class=&#34;cv-experience&#34;&gt;
+  &lt;div class=&#34;row lead&#34;&gt;
+    &lt;span&gt;Special Program for the Employment of Students (SPES)&lt;/span&gt;
+    &lt;span&gt;Summer 2018&lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;row sub&#34;&gt;
+    &lt;span&gt;Budget Office&lt;/span&gt;
+    &lt;span&gt;Municipal Hall Bulalacao&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
 
 &lt;h2 id=&#34;education&#34;&gt;
   Education
@@ -92,8 +97,26 @@ EducationEducationUniversity of the Philippines Los BañosAug 2019 - Present
   &lt;a href=&#34;#programming-languages&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
 &lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Proficent in Python and Fortran&lt;/li&gt;
+&lt;li&gt;Proficient in Python and Fortran&lt;/li&gt;
+&lt;li&gt;Proficient in LaTeX&lt;/li&gt;
 &lt;li&gt;Experience in HTML&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;3d-printing&#34;&gt;
+  3D Printing
+  &lt;a href=&#34;#3d-printing&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Experience in 3D Printing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;linux&#34;&gt;
+  Linux:
+  &lt;a href=&#34;#linux&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Literate in Linux based Operating Systems&lt;/li&gt;
+&lt;li&gt;Advanced skills in Linux&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;graphics&#34;&gt;
@@ -138,6 +161,24 @@ EducationEducationUniversity of the Philippines Los BañosAug 2019 - Present
 &lt;li&gt;Passionate about learning new technologies and staying updated with industry trends.&lt;/li&gt;
 &lt;li&gt;Dedication to self-improvement and skill enhancement through online courses, workshops, and projects.&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h2 id=&#34;volunteer-experiences&#34;&gt;
+  Volunteer Experiences
+  &lt;a href=&#34;#volunteer-experiences&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;UP Mindoreños&amp;rsquo; Academic Review - Lecturer(2019,2024)
+Taal Volcano Eruption Volunteer(2020)&lt;/p&gt;
+
+&lt;h2 id=&#34;research-experience&#34;&gt;
+  Research Experience
+  &lt;a href=&#34;#research-experience&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h2&gt;
+
+&lt;h4 id=&#34;high-school-research&#34;&gt;
+  High School Research
+  &lt;a href=&#34;#high-school-research&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p&gt;Development of 3D printing filaments from Polyethylene Terephthalate(PET)&lt;/p&gt;
 
 &lt;h2 id=&#34;hobbies&#34;&gt;
   Hobbies
