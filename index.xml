@@ -67,6 +67,167 @@ Yes it&amp;rsquo;s a meme page I created along with my friends. LMAO</descriptio
 </content>
     </item>
     <item>
+      <title></title>
+      <link>https://mScid.github.io/docs/collectionofideas/arch-linux-installation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+
+      <guid>https://mScid.github.io/docs/collectionofideas/arch-linux-installation/</guid>
+      <description>How I install Arch LinuxLang:Copyping archlinux.org timedatectl cfdisk /dev/sdx mkfs.ext4 /dev/root_partition mkswap /dev/swap_partition mkfs.fat -F 32 /dev/efi_system_partition mkdir -p /mnt/boot/efi mount /dev/rootpartition /mnt mount /dev/efi_system_partition /mnt/boot/efi swapon /dev/swap_partition pacstrap -K /mnt base base-devel linux linux-firmware linux-headers sof-firmware nvim grub efibootmgr networkmanager plasma-desktop zsh reflector genfstab -U /mnt &amp;gt;&amp;gt; /mnt/etc/fstab arch-chroot /mnt ln -sf /usr/shate/zoneinfo/Asia/Manila /etc/localtime hwclock --systohcedit /etc/locale.gen and uncomment en_US.UTF-8 UTF-8
+Lang:Copylocale-genCreate locale.</description>
+      <content>
+&lt;h3 id=&#34;how-i-install-arch-linux&#34;&gt;
+  How I install Arch Linux
+  &lt;a href=&#34;#how-i-install-arch-linux&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h3&gt;
+
+&lt;div class=&#34;highlight-wrapper&#34;&gt;
+  &lt;div class=&#34;highlight-toolbar&#34;&gt;
+    &lt;span class=&#34;item&#34;&gt;
+      &lt;span class=&#34;label&#34;&gt;Lang:&lt;/span&gt;
+      &lt;span class=&#34;name&#34;&gt;&lt;/span&gt;
+    &lt;/span&gt;
+
+
+    &lt;button class=&#34;item right outline brighter hide js-btn-copy-code&#34;&gt;Copy&lt;/button&gt;
+  &lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ping archlinux.org
+
+timedatectl
+
+cfdisk /dev/sdx
+
+mkfs.ext4 /dev/root_partition
+mkswap /dev/swap_partition
+mkfs.fat -F 32 /dev/efi_system_partition
+
+mkdir -p /mnt/boot/efi
+
+mount /dev/rootpartition /mnt
+mount /dev/efi_system_partition /mnt/boot/efi
+swapon /dev/swap_partition
+
+pacstrap -K /mnt base base-devel linux linux-firmware linux-headers sof-firmware nvim grub efibootmgr 
+networkmanager plasma-desktop zsh reflector
+
+genfstab -U /mnt &amp;gt;&amp;gt; /mnt/etc/fstab
+
+arch-chroot /mnt
+
+ln -sf /usr/shate/zoneinfo/Asia/Manila /etc/localtime
+
+hwclock --systohc&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;edit &lt;code&gt;/etc/locale.gen&lt;/code&gt; and uncomment &lt;code&gt;en_US.UTF-8 UTF-8&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&#34;highlight-wrapper&#34;&gt;
+  &lt;div class=&#34;highlight-toolbar&#34;&gt;
+    &lt;span class=&#34;item&#34;&gt;
+      &lt;span class=&#34;label&#34;&gt;Lang:&lt;/span&gt;
+      &lt;span class=&#34;name&#34;&gt;&lt;/span&gt;
+    &lt;/span&gt;
+
+
+    &lt;button class=&#34;item right outline brighter hide js-btn-copy-code&#34;&gt;Copy&lt;/button&gt;
+  &lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;locale-gen&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Create locale.conf file&lt;/p&gt;
+
+&lt;div class=&#34;highlight-wrapper&#34;&gt;
+  &lt;div class=&#34;highlight-toolbar&#34;&gt;
+    &lt;span class=&#34;item&#34;&gt;
+      &lt;span class=&#34;label&#34;&gt;Lang:&lt;/span&gt;
+      &lt;span class=&#34;name&#34;&gt;&lt;/span&gt;
+    &lt;/span&gt;
+
+
+    &lt;button class=&#34;item right outline brighter hide js-btn-copy-code&#34;&gt;Copy&lt;/button&gt;
+  &lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;LANG=en_US.UTF-8&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Create hostname file at &lt;code&gt;/etc/hostname&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&#34;highlight-wrapper&#34;&gt;
+  &lt;div class=&#34;highlight-toolbar&#34;&gt;
+    &lt;span class=&#34;item&#34;&gt;
+      &lt;span class=&#34;label&#34;&gt;Lang:&lt;/span&gt;
+      &lt;span class=&#34;name&#34;&gt;&lt;/span&gt;
+    &lt;/span&gt;
+
+
+    &lt;button class=&#34;item right outline brighter hide js-btn-copy-code&#34;&gt;Copy&lt;/button&gt;
+  &lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;yourhostname&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&#34;highlight-wrapper&#34;&gt;
+  &lt;div class=&#34;highlight-toolbar&#34;&gt;
+    &lt;span class=&#34;item&#34;&gt;
+      &lt;span class=&#34;label&#34;&gt;Lang:&lt;/span&gt;
+      &lt;span class=&#34;name&#34;&gt;&lt;/span&gt;
+    &lt;/span&gt;
+
+
+    &lt;button class=&#34;item right outline brighter hide js-btn-copy-code&#34;&gt;Copy&lt;/button&gt;
+  &lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;passwd
+
+useradd -m -G wheel -s /bin/zsh &amp;lt;name&amp;gt;
+passwd &amp;lt;name&amp;gt;
+
+EDITOR=nvim visudo&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;uncomment &lt;code&gt;wheel&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;enable services&lt;/p&gt;
+
+&lt;div class=&#34;highlight-wrapper&#34;&gt;
+  &lt;div class=&#34;highlight-toolbar&#34;&gt;
+    &lt;span class=&#34;item&#34;&gt;
+      &lt;span class=&#34;label&#34;&gt;Lang:&lt;/span&gt;
+      &lt;span class=&#34;name&#34;&gt;&lt;/span&gt;
+    &lt;/span&gt;
+
+
+    &lt;button class=&#34;item right outline brighter hide js-btn-copy-code&#34;&gt;Copy&lt;/button&gt;
+  &lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;systemctl enable NetworkManager
+systemctl enable sddm !or whatever login manager
+
+! if on ssd
+systemctl enable fstrim.timer&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&#34;highlight-wrapper&#34;&gt;
+  &lt;div class=&#34;highlight-toolbar&#34;&gt;
+    &lt;span class=&#34;item&#34;&gt;
+      &lt;span class=&#34;label&#34;&gt;Lang:&lt;/span&gt;
+      &lt;span class=&#34;name&#34;&gt;&lt;/span&gt;
+    &lt;/span&gt;
+
+
+    &lt;button class=&#34;item right outline brighter hide js-btn-copy-code&#34;&gt;Copy&lt;/button&gt;
+  &lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;grub-install /dev/sdx
+grub-mkconfig -o /boot/grub/grub.cfg
+
+umount -a&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Adding windows on grub or other OS&lt;/p&gt;
+&lt;p&gt;install os-prober&lt;/p&gt;
+&lt;p&gt;edit &lt;code&gt;/etc/default/grub&lt;/code&gt; and uncomment &lt;code&gt;GRUB_DISABLE_OS_PROBER=false&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&#34;highlight-wrapper&#34;&gt;
+  &lt;div class=&#34;highlight-toolbar&#34;&gt;
+    &lt;span class=&#34;item&#34;&gt;
+      &lt;span class=&#34;label&#34;&gt;Lang:&lt;/span&gt;
+      &lt;span class=&#34;name&#34;&gt;&lt;/span&gt;
+    &lt;/span&gt;
+
+
+    &lt;button class=&#34;item right outline brighter hide js-btn-copy-code&#34;&gt;Copy&lt;/button&gt;
+  &lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;grub-mkconfig -o /boot/grub/grub.cfg&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&#34;highlight-wrapper&#34;&gt;
+  &lt;div class=&#34;highlight-toolbar&#34;&gt;
+    &lt;span class=&#34;item&#34;&gt;
+      &lt;span class=&#34;label&#34;&gt;Lang:&lt;/span&gt;
+      &lt;span class=&#34;name&#34;&gt;&lt;/span&gt;
+    &lt;/span&gt;
+
+
+    &lt;button class=&#34;item right outline brighter hide js-btn-copy-code&#34;&gt;Copy&lt;/button&gt;
+  &lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;umount -a 
+
+reboot&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+</content>
+    </item>
+    <item>
       <title>About </title>
       <link>https://mScid.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
