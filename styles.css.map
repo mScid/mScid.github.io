@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "styles.css",
-	"sourceRoot": "/run/media/dinan/New Volume/Personal_Website/mscid-hugo",
+	"sourceRoot": "/home/dinan/Documents/mscid-hugo",
 	"sources": [
 		"themes/hugo-xterm/assets/styles/app.scss",
 		"themes/hugo-xterm/assets/styles/_variables.scss",

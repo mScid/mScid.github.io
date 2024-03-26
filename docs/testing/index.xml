@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Testing on Dinan</title>
-    <link>https://mScid.github.io/docs/testing/</link>
+    <link>http://localhost:1313/docs/testing/</link>
     <description>Recent content in Testing on Dinan</description>
     <generator>Hugo -- gohugo.io</generator>
       <language>en</language>
-      <copyright>© Dinan Mariano</copyright><atom:link href="https://mScid.github.io/docs/testing/index.xml" rel="self" type="application/rss+xml" />
+      <copyright>© Dinan Mariano</copyright><atom:link href="http://localhost:1313/docs/testing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://mScid.github.io/docs/testing/math/</link>
+      <link>http://localhost:1313/docs/testing/math/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 
-      <guid>https://mScid.github.io/docs/testing/math/</guid>
+      <guid>http://localhost:1313/docs/testing/math/</guid>
       <description>Testing math on this websiteBlock equationsPythagorean Theorem\[a^2 + b^2 = c^2\] Time Dependent Schrodinger Equation\[\frac{-\hbar ^2}{2m} \frac{\partial^2 \Psi(x,t)}{\partial x^2} + V(x)\Psi(x,t) = i\hbar \frac{\partial\Psi(x,t)}{\partial t}\] </description>
       <content>
 &lt;h2 id=&#34;testing-math-on-this-website&#34;&gt;
@@ -36,30 +36,6 @@
   &lt;a href=&#34;#time-dependent-schrodinger-equation&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
 &lt;/h4&gt;
 \[\frac{-\hbar ^2}{2m} \frac{\partial^2 \Psi(x,t)}{\partial x^2} + V(x)\Psi(x,t) = i\hbar \frac{\partial\Psi(x,t)}{\partial t}\]
-</content>
-    </item>
-    <item>
-      <title></title>
-      <link>https://mScid.github.io/docs/testing/slides/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-
-      <guid>https://mScid.github.io/docs/testing/slides/</guid>
-      <description>IntroductionSlide 2Features</description>
-      <content>
-&lt;h2 id=&#34;introduction&#34;&gt;
-  Introduction
-  &lt;a href=&#34;#introduction&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
-&lt;/h2&gt;
-
-&lt;h2 id=&#34;slide-2&#34;&gt;
-  Slide 2
-  &lt;a href=&#34;#slide-2&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
-&lt;/h2&gt;
-
-&lt;h2 id=&#34;features&#34;&gt;
-  Features
-  &lt;a href=&#34;#features&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
-&lt;/h2&gt;
 </content>
     </item>
   </channel>

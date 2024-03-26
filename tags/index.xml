@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Dinan</title>
-    <link>https://mScid.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Dinan</description>
     <generator>Hugo -- gohugo.io</generator>
       <language>en</language>
       <copyright>© Dinan Mariano</copyright>
-      <lastBuildDate>Tue, 26 Mar 2024 05:33:19 +0800</lastBuildDate><atom:link href="https://mScid.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+      <lastBuildDate>Tue, 26 Mar 2024 05:33:19 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Academic Review</title>
-      <link>https://mScid.github.io/tags/academic-review/</link>
+      <link>http://localhost:1313/tags/academic-review/</link>
       <pubDate>Tue, 26 Mar 2024 05:33:19 +0800</pubDate>
 
-      <guid>https://mScid.github.io/tags/academic-review/</guid>
+      <guid>http://localhost:1313/tags/academic-review/</guid>
       <description></description>
       <content></content>
     </item>
     <item>
       <title>Teaching</title>
-      <link>https://mScid.github.io/tags/teaching/</link>
+      <link>http://localhost:1313/tags/teaching/</link>
       <pubDate>Tue, 26 Mar 2024 05:33:19 +0800</pubDate>
 
-      <guid>https://mScid.github.io/tags/teaching/</guid>
+      <guid>http://localhost:1313/tags/teaching/</guid>
       <description></description>
       <content></content>
     </item>

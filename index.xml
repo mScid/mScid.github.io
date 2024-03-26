@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Me on Dinan</title>
-    <link>https://mScid.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Me on Dinan</description>
     <generator>Hugo -- gohugo.io</generator>
       <language>en</language>
       <copyright>© Dinan Mariano</copyright>
-      <lastBuildDate>Tue, 26 Mar 2024 05:33:19 +0800</lastBuildDate><atom:link href="https://mScid.github.io/index.xml" rel="self" type="application/rss+xml" />
+      <lastBuildDate>Tue, 26 Mar 2024 05:33:19 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Academic Review 2024</title>
-      <link>https://mScid.github.io/posts/academic-review/</link>
+      <link>http://localhost:1313/posts/academic-review/</link>
       <pubDate>Tue, 26 Mar 2024 05:33:19 +0800</pubDate>
 
-      <guid>https://mScid.github.io/posts/academic-review/</guid>
+      <guid>http://localhost:1313/posts/academic-review/</guid>
       <description>I am very passionate about physics, turns out that being passionate does not equate to being great at teaching it.
 I was excited at the thought of teaching Physics, a thing that I&amp;rsquo;m very passionate about and what I&amp;rsquo;m studying currently. I&amp;rsquo;ve prepared my carefully created slides along with a funny intro, a bunch of physics topics, and some quizzes along the way. I was very prepared for it.</description>
-      <content>&lt;p&gt;&lt;img alt=&#34;Teaching Physics&#34; src=&#34;https://mScid.github.io/img/Acadrev.jpg&#34;&gt;&lt;/p&gt;
+      <content>&lt;p&gt;&lt;img alt=&#34;Teaching Physics&#34; src=&#34;http://localhost:1313/img/Acadrev.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;I am very passionate about physics, turns out that being passionate does not equate to being great at teaching it.&lt;/p&gt;
 &lt;p&gt;I was excited at the thought of teaching Physics, a thing that I&amp;rsquo;m very passionate about and what I&amp;rsquo;m studying currently. I&amp;rsquo;ve prepared my carefully created slides
 along with a funny intro, a bunch of physics topics, and some quizzes along the way. I was very prepared for it.&lt;/p&gt;
@@ -56,10 +56,10 @@ I apologize for failing as a lecturer. Thank you, and I will be better the next 
     </item>
     <item>
       <title></title>
-      <link>https://mScid.github.io/docs/collectionofideas/arch-linux-installation/</link>
+      <link>http://localhost:1313/docs/collectionofideas/arch-linux-installation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 
-      <guid>https://mScid.github.io/docs/collectionofideas/arch-linux-installation/</guid>
+      <guid>http://localhost:1313/docs/collectionofideas/arch-linux-installation/</guid>
       <description>How I install Arch LinuxPre-InstallationLang:zshCopy1ping archlinux.org 2 3timedatectl 4 5cfdisk /dev/sdx 6 7mkfs.ext4 /dev/root_partition 8mkswap /dev/swap_partition 9mkfs.fat -F 32 /dev/efi_system_partition 10 11mkdir -p /mnt/boot/efi 12 13mount /dev/rootpartition /mnt 14mount /dev/efi_system_partition /mnt/boot/efi 15swapon /dev/swap_partitionInstallationLang:zshCopy1pacstrap -K /mnt base base-devel linux linux-firmware linux-headers sof-firmware nvim grub efibootmgr 2networkmanager plasma-desktop zsh reflector 3 4genfstab -U /mnt &amp;gt;&amp;gt; /mnt/etc/fstab 5 6arch-chroot /mntConfigurationLang:bashCopy1ln -sf /usr/shate/zoneinfo/Asia/Manila /etc/localtime 2 3hwclock --systohcedit /etc/locale.</description>
       <content>
 &lt;h2 id=&#34;how-i-install-arch-linux&#34;&gt;
@@ -249,10 +249,10 @@ I apologize for failing as a lecturer. Thank you, and I will be better the next 
     </item>
     <item>
       <title></title>
-      <link>https://mScid.github.io/docs/testing/math/</link>
+      <link>http://localhost:1313/docs/testing/math/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 
-      <guid>https://mScid.github.io/docs/testing/math/</guid>
+      <guid>http://localhost:1313/docs/testing/math/</guid>
       <description>Testing math on this websiteBlock equationsPythagorean Theorem\[a^2 + b^2 = c^2\] Time Dependent Schrodinger Equation\[\frac{-\hbar ^2}{2m} \frac{\partial^2 \Psi(x,t)}{\partial x^2} + V(x)\Psi(x,t) = i\hbar \frac{\partial\Psi(x,t)}{\partial t}\] </description>
       <content>
 &lt;h2 id=&#34;testing-math-on-this-website&#34;&gt;
@@ -279,35 +279,11 @@ I apologize for failing as a lecturer. Thank you, and I will be better the next 
 </content>
     </item>
     <item>
-      <title></title>
-      <link>https://mScid.github.io/docs/testing/slides/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-
-      <guid>https://mScid.github.io/docs/testing/slides/</guid>
-      <description>IntroductionSlide 2Features</description>
-      <content>
-&lt;h2 id=&#34;introduction&#34;&gt;
-  Introduction
-  &lt;a href=&#34;#introduction&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
-&lt;/h2&gt;
-
-&lt;h2 id=&#34;slide-2&#34;&gt;
-  Slide 2
-  &lt;a href=&#34;#slide-2&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
-&lt;/h2&gt;
-
-&lt;h2 id=&#34;features&#34;&gt;
-  Features
-  &lt;a href=&#34;#features&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
-&lt;/h2&gt;
-</content>
-    </item>
-    <item>
       <title>About </title>
-      <link>https://mScid.github.io/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 
-      <guid>https://mScid.github.io/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>Welcome to my corner of the web! I&amp;rsquo;m Dinan, physics student. Here&amp;rsquo;s a glimpse into my journey:
 BackgroundSince High School, I&amp;rsquo;ve been fascinated by physics because for me, it&amp;rsquo;s the real world. Everything in the world follows the laws of physics, Hence, studying physics = studying the world
 Education and QualificationsI am currently studying Applied Physics from University of the Philippines Los Baños. During my academic journey, I delved deep into chemical physics.</description>
@@ -353,10 +329,10 @@ Education and QualificationsI am currently studying Applied Physics from Univer
     </item>
     <item>
       <title>CV</title>
-      <link>https://mScid.github.io/cv/</link>
+      <link>http://localhost:1313/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 
-      <guid>https://mScid.github.io/cv/</guid>
+      <guid>http://localhost:1313/cv/</guid>
       <description>ExperienceSpecial Program for the Employment of Students (SPES)Summer 2018Budget OfficeMunicipal Hall BulalacaoSpecial Program for the Employment of Students (SPES)Summer 2017Human Resources OfficeMunicipal Hall BulalacaoVolunteer ExperiencesUP Mindoreños Academic ReviewJanuary 2024LecturerSan Jose, Occidental MindoroUPLB Naruto RunOctober 2023Co-HostUP Los BañosUPLB Naruto RunOctober 2022Co-HostUP Los BañosTaal Volcano Eruption Disaster ReliefJanuary 2020VolunteerUP Los BañosUP Mindoreños Academic ReviewJuly 2019LecturerSan Jose, Occidental MindoroResearch ExperienceHigh School ResearchDevelopment of 3D printing filaments from Polyethylene Terephthalate(PET)</description>
       <content>
 &lt;h2 id=&#34;experience&#34;&gt;
