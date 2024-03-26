@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Dinan</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://mScid.github.io/categories/</link>
     <description>Recent content in Categories on Dinan</description>
     <generator>Hugo -- gohugo.io</generator>
       <language>en</language>
       <copyright>© Dinan Mariano</copyright>
-      <lastBuildDate>Tue, 26 Mar 2024 05:33:19 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+      <lastBuildDate>Tue, 26 Mar 2024 05:33:19 +0800</lastBuildDate><atom:link href="https://mScid.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learn</title>
-      <link>http://localhost:1313/categories/learn/</link>
+      <link>https://mScid.github.io/categories/learn/</link>
       <pubDate>Tue, 26 Mar 2024 05:33:19 +0800</pubDate>
 
-      <guid>http://localhost:1313/categories/learn/</guid>
+      <guid>https://mScid.github.io/categories/learn/</guid>
       <description></description>
       <content></content>
     </item>
     <item>
       <title>Teaching</title>
-      <link>http://localhost:1313/categories/teaching/</link>
+      <link>https://mScid.github.io/categories/teaching/</link>
       <pubDate>Tue, 26 Mar 2024 05:33:19 +0800</pubDate>
 
-      <guid>http://localhost:1313/categories/teaching/</guid>
+      <guid>https://mScid.github.io/categories/teaching/</guid>
       <description></description>
       <content></content>
     </item>

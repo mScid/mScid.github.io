@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Collection of ideas on Dinan</title>
-    <link>http://localhost:1313/docs/collectionofideas/</link>
+    <link>https://mScid.github.io/docs/collectionofideas/</link>
     <description>Recent content in Collection of ideas on Dinan</description>
     <generator>Hugo -- gohugo.io</generator>
       <language>en</language>
       <copyright>© Dinan Mariano</copyright>
-      <lastBuildDate>Tue, 26 Mar 2024 02:04:03 +0800</lastBuildDate><atom:link href="http://localhost:1313/docs/collectionofideas/index.xml" rel="self" type="application/rss+xml" />
+      <lastBuildDate>Tue, 26 Mar 2024 02:04:03 +0800</lastBuildDate><atom:link href="https://mScid.github.io/docs/collectionofideas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://localhost:1313/docs/collectionofideas/arch-linux-installation/</link>
+      <link>https://mScid.github.io/docs/collectionofideas/arch-linux-installation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 
-      <guid>http://localhost:1313/docs/collectionofideas/arch-linux-installation/</guid>
+      <guid>https://mScid.github.io/docs/collectionofideas/arch-linux-installation/</guid>
       <description>How I install Arch LinuxPre-InstallationLang:zshCopy1ping archlinux.org 2 3timedatectl 4 5cfdisk /dev/sdx 6 7mkfs.ext4 /dev/root_partition 8mkswap /dev/swap_partition 9mkfs.fat -F 32 /dev/efi_system_partition 10 11mkdir -p /mnt/boot/efi 12 13mount /dev/rootpartition /mnt 14mount /dev/efi_system_partition /mnt/boot/efi 15swapon /dev/swap_partitionInstallationLang:zshCopy1pacstrap -K /mnt base base-devel linux linux-firmware linux-headers sof-firmware nvim grub efibootmgr 2networkmanager plasma-desktop zsh reflector 3 4genfstab -U /mnt &amp;gt;&amp;gt; /mnt/etc/fstab 5 6arch-chroot /mntConfigurationLang:bashCopy1ln -sf /usr/shate/zoneinfo/Asia/Manila /etc/localtime 2 3hwclock --systohcedit /etc/locale.</description>
       <content>
 &lt;h2 id=&#34;how-i-install-arch-linux&#34;&gt;

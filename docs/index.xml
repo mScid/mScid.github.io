@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docs on Dinan</title>
-    <link>http://localhost:1313/docs/</link>
+    <link>https://mScid.github.io/docs/</link>
     <description>Recent content in Docs on Dinan</description>
     <generator>Hugo -- gohugo.io</generator>
       <language>en</language>
       <copyright>© Dinan Mariano</copyright>
-      <lastBuildDate>Tue, 26 Mar 2024 01:58:33 +0800</lastBuildDate><atom:link href="http://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
+      <lastBuildDate>Tue, 26 Mar 2024 01:58:33 +0800</lastBuildDate><atom:link href="https://mScid.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
