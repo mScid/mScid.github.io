@@ -4,8 +4,7 @@
 <title>Arch Linux Installation :: Dinan</title>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="How I install Arch LinuxLang:Copyping archlinux.org timedatectl cfdisk /dev/sdx mkfs.ext4 /dev/root_partition mkswap /dev/swap_partition mkfs.fat -F 32 /dev/efi_system_partition mkdir -p /mnt/boot/efi mount /dev/rootpartition /mnt mount /dev/efi_system_partition /mnt/boot/efi swapon /dev/swap_partition pacstrap -K /mnt base base-devel linux linux-firmware linux-headers sof-firmware nvim grub efibootmgr networkmanager plasma-desktop zsh reflector genfstab -U /mnt &amp;gt;&amp;gt; /mnt/etc/fstab arch-chroot /mnt ln -sf /usr/shate/zoneinfo/Asia/Manila /etc/localtime hwclock --systohcedit /etc/locale.gen and uncomment en_US.UTF-8 UTF-8
-Lang:Copylocale-genCreate locale." />
+<meta name="description" content="How I install Arch LinuxPre-InstallationLang:zshCopy1ping archlinux.org 2 3timedatectl 4 5cfdisk /dev/sdx 6 7mkfs.ext4 /dev/root_partition 8mkswap /dev/swap_partition 9mkfs.fat -F 32 /dev/efi_system_partition 10 11mkdir -p /mnt/boot/efi 12 13mount /dev/rootpartition /mnt 14mount /dev/efi_system_partition /mnt/boot/efi 15swapon /dev/swap_partitionInstallationLang:zshCopy1pacstrap -K /mnt base base-devel linux linux-firmware linux-headers sof-firmware nvim grub efibootmgr 2networkmanager plasma-desktop zsh reflector 3 4genfstab -U /mnt &amp;gt;&amp;gt; /mnt/etc/fstab 5 6arch-chroot /mntConfigurationLang:bashCopy1ln -sf /usr/shate/zoneinfo/Asia/Manila /etc/localtime 2 3hwclock --systohcedit /etc/locale." />
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
 <link rel="canonical" href="https://mScid.github.io/docs/collectionofideas/arch-linux-installation/" />
@@ -13,8 +12,7 @@ Lang:Copylocale-genCreate locale." />
   <meta name="twitter:creator" content="marianosquared" />
 <meta property="og:locale" content="en" />
 <meta property="og:title" content="Arch Linux Installation :: Dinan" />
-<meta property="og:description" content="How I install Arch LinuxLang:Copyping archlinux.org timedatectl cfdisk /dev/sdx mkfs.ext4 /dev/root_partition mkswap /dev/swap_partition mkfs.fat -F 32 /dev/efi_system_partition mkdir -p /mnt/boot/efi mount /dev/rootpartition /mnt mount /dev/efi_system_partition /mnt/boot/efi swapon /dev/swap_partition pacstrap -K /mnt base base-devel linux linux-firmware linux-headers sof-firmware nvim grub efibootmgr networkmanager plasma-desktop zsh reflector genfstab -U /mnt &amp;gt;&amp;gt; /mnt/etc/fstab arch-chroot /mnt ln -sf /usr/shate/zoneinfo/Asia/Manila /etc/localtime hwclock --systohcedit /etc/locale.gen and uncomment en_US.UTF-8 UTF-8
-Lang:Copylocale-genCreate locale." />
+<meta property="og:description" content="How I install Arch LinuxPre-InstallationLang:zshCopy1ping archlinux.org 2 3timedatectl 4 5cfdisk /dev/sdx 6 7mkfs.ext4 /dev/root_partition 8mkswap /dev/swap_partition 9mkfs.fat -F 32 /dev/efi_system_partition 10 11mkdir -p /mnt/boot/efi 12 13mount /dev/rootpartition /mnt 14mount /dev/efi_system_partition /mnt/boot/efi 15swapon /dev/swap_partitionInstallationLang:zshCopy1pacstrap -K /mnt base base-devel linux linux-firmware linux-headers sof-firmware nvim grub efibootmgr 2networkmanager plasma-desktop zsh reflector 3 4genfstab -U /mnt &amp;gt;&amp;gt; /mnt/etc/fstab 5 6arch-chroot /mntConfigurationLang:bashCopy1ln -sf /usr/shate/zoneinfo/Asia/Manila /etc/localtime 2 3hwclock --systohcedit /etc/locale." />
   <meta property="og:type" content="article" />
   <meta property="article:author" content="Dinan" />
 <meta property="og:url" content="https://mScid.github.io/docs/collectionofideas/arch-linux-installation/" />
@@ -83,9 +81,11 @@ Lang:Copylocale-genCreate locale." />
         <h2>Table of Contents</h2>
         <nav id="TableOfContents">
   <ul>
-    <li>
+    <li><a href="#how-i-install-arch-linux">How I install Arch Linux</a>
       <ul>
-        <li><a href="#how-i-install-arch-linux">How I install Arch Linux</a></li>
+        <li><a href="#pre-installation">Pre-Installation</a></li>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#configuration">Configuration</a></li>
       </ul>
     </li>
   </ul>
@@ -93,98 +93,131 @@ Lang:Copylocale-genCreate locale." />
       </div>
       <div class="post-content">
         
-<h3 id="how-i-install-arch-linux">
+<h2 id="how-i-install-arch-linux">
   How I install Arch Linux
   <a href="#how-i-install-arch-linux" class="hanchor" ariaLabel="Anchor"></a>
+</h2>
+
+<h3 id="pre-installation">
+  Pre-Installation
+  <a href="#pre-installation" class="hanchor" ariaLabel="Anchor"></a>
 </h3>
 
 <div class="highlight-wrapper">
   <div class="highlight-toolbar">
     <span class="item">
       <span class="label">Lang:</span>
-      <span class="name"></span>
+      <span class="name">zsh</span>
     </span>
 
 
     <button class="item right outline brighter hide js-btn-copy-code">Copy</button>
-  </div><pre tabindex="0"><code>ping archlinux.org
+  </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="ln"> 1</span><span class="cl">ping archlinux.org
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl">
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl">timedatectl
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl">
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl">cfdisk /dev/sdx
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl">
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl">mkfs.ext4 /dev/root_partition
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl">mkswap /dev/swap_partition
+</span></span><span class="line"><span class="ln"> 9</span><span class="cl">mkfs.fat -F <span class="m">32</span> /dev/efi_system_partition
+</span></span><span class="line"><span class="ln">10</span><span class="cl">
+</span></span><span class="line"><span class="ln">11</span><span class="cl">mkdir -p /mnt/boot/efi
+</span></span><span class="line"><span class="ln">12</span><span class="cl">
+</span></span><span class="line"><span class="ln">13</span><span class="cl">mount /dev/rootpartition /mnt
+</span></span><span class="line"><span class="ln">14</span><span class="cl">mount /dev/efi_system_partition /mnt/boot/efi
+</span></span><span class="line"><span class="ln">15</span><span class="cl">swapon /dev/swap_partition</span></span></code></pre></div></div>
 
-timedatectl
+<h3 id="installation">
+  Installation
+  <a href="#installation" class="hanchor" ariaLabel="Anchor"></a>
+</h3>
 
-cfdisk /dev/sdx
+<div class="highlight-wrapper">
+  <div class="highlight-toolbar">
+    <span class="item">
+      <span class="label">Lang:</span>
+      <span class="name">zsh</span>
+    </span>
 
-mkfs.ext4 /dev/root_partition
-mkswap /dev/swap_partition
-mkfs.fat -F 32 /dev/efi_system_partition
 
-mkdir -p /mnt/boot/efi
+    <button class="item right outline brighter hide js-btn-copy-code">Copy</button>
+  </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="ln">1</span><span class="cl">pacstrap -K /mnt base base-devel linux linux-firmware linux-headers sof-firmware nvim grub efibootmgr 
+</span></span><span class="line"><span class="ln">2</span><span class="cl">networkmanager plasma-desktop zsh reflector
+</span></span><span class="line"><span class="ln">3</span><span class="cl">
+</span></span><span class="line"><span class="ln">4</span><span class="cl">genfstab -U /mnt &gt;&gt; /mnt/etc/fstab
+</span></span><span class="line"><span class="ln">5</span><span class="cl">
+</span></span><span class="line"><span class="ln">6</span><span class="cl">arch-chroot /mnt</span></span></code></pre></div></div>
 
-mount /dev/rootpartition /mnt
-mount /dev/efi_system_partition /mnt/boot/efi
-swapon /dev/swap_partition
+<h3 id="configuration">
+  Configuration
+  <a href="#configuration" class="hanchor" ariaLabel="Anchor"></a>
+</h3>
 
-pacstrap -K /mnt base base-devel linux linux-firmware linux-headers sof-firmware nvim grub efibootmgr 
-networkmanager plasma-desktop zsh reflector
+<div class="highlight-wrapper">
+  <div class="highlight-toolbar">
+    <span class="item">
+      <span class="label">Lang:</span>
+      <span class="name">bash</span>
+    </span>
 
-genfstab -U /mnt &gt;&gt; /mnt/etc/fstab
 
-arch-chroot /mnt
-
-ln -sf /usr/shate/zoneinfo/Asia/Manila /etc/localtime
-
-hwclock --systohc</code></pre></div>
+    <button class="item right outline brighter hide js-btn-copy-code">Copy</button>
+  </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl">ln -sf /usr/shate/zoneinfo/Asia/Manila /etc/localtime
+</span></span><span class="line"><span class="ln">2</span><span class="cl">
+</span></span><span class="line"><span class="ln">3</span><span class="cl">hwclock --systohc</span></span></code></pre></div></div>
 <p>edit <code>/etc/locale.gen</code> and uncomment <code>en_US.UTF-8 UTF-8</code></p>
 
 <div class="highlight-wrapper">
   <div class="highlight-toolbar">
     <span class="item">
       <span class="label">Lang:</span>
-      <span class="name"></span>
+      <span class="name">bash</span>
     </span>
 
 
     <button class="item right outline brighter hide js-btn-copy-code">Copy</button>
-  </div><pre tabindex="0"><code>locale-gen</code></pre></div>
+  </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl">locale-gen</span></span></code></pre></div></div>
 <p>Create locale.conf file</p>
 
 <div class="highlight-wrapper">
   <div class="highlight-toolbar">
     <span class="item">
       <span class="label">Lang:</span>
-      <span class="name"></span>
+      <span class="name">bash</span>
     </span>
 
 
     <button class="item right outline brighter hide js-btn-copy-code">Copy</button>
-  </div><pre tabindex="0"><code>LANG=en_US.UTF-8</code></pre></div>
+  </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl"><span class="nv">LANG</span><span class="o">=</span>en_US.UTF-8</span></span></code></pre></div></div>
 <p>Create hostname file at <code>/etc/hostname</code></p>
 
 <div class="highlight-wrapper">
   <div class="highlight-toolbar">
     <span class="item">
       <span class="label">Lang:</span>
-      <span class="name"></span>
+      <span class="name">bash</span>
     </span>
 
 
     <button class="item right outline brighter hide js-btn-copy-code">Copy</button>
-  </div><pre tabindex="0"><code>yourhostname</code></pre></div>
+  </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl">yourhostname</span></span></code></pre></div></div>
 
 <div class="highlight-wrapper">
   <div class="highlight-toolbar">
     <span class="item">
       <span class="label">Lang:</span>
-      <span class="name"></span>
+      <span class="name">bash</span>
     </span>
 
 
     <button class="item right outline brighter hide js-btn-copy-code">Copy</button>
-  </div><pre tabindex="0"><code>passwd
-
-useradd -m -G wheel -s /bin/zsh &lt;name&gt;
-passwd &lt;name&gt;
-
-EDITOR=nvim visudo</code></pre></div>
+  </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl">passwd
+</span></span><span class="line"><span class="ln">2</span><span class="cl">
+</span></span><span class="line"><span class="ln">3</span><span class="cl">useradd -m -G wheel -s /bin/zsh &lt;name&gt;
+</span></span><span class="line"><span class="ln">4</span><span class="cl">passwd &lt;name&gt;
+</span></span><span class="line"><span class="ln">5</span><span class="cl">
+</span></span><span class="line"><span class="ln">6</span><span class="cl"><span class="nv">EDITOR</span><span class="o">=</span>nvim visudo</span></span></code></pre></div></div>
 <p>uncomment <code>wheel</code></p>
 <p>enable services</p>
 
@@ -192,30 +225,30 @@ EDITOR=nvim visudo</code></pre></div>
   <div class="highlight-toolbar">
     <span class="item">
       <span class="label">Lang:</span>
-      <span class="name"></span>
+      <span class="name">bash</span>
     </span>
 
 
     <button class="item right outline brighter hide js-btn-copy-code">Copy</button>
-  </div><pre tabindex="0"><code>systemctl enable NetworkManager
-systemctl enable sddm !or whatever login manager
-
-! if on ssd
-systemctl enable fstrim.timer</code></pre></div>
+  </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl">systemctl <span class="nb">enable</span> NetworkManager
+</span></span><span class="line"><span class="ln">2</span><span class="cl">systemctl <span class="nb">enable</span> sddm !or whatever login manager
+</span></span><span class="line"><span class="ln">3</span><span class="cl">
+</span></span><span class="line"><span class="ln">4</span><span class="cl">! <span class="k">if</span> on ssd
+</span></span><span class="line"><span class="ln">5</span><span class="cl">systemctl <span class="nb">enable</span> fstrim.timer</span></span></code></pre></div></div>
 
 <div class="highlight-wrapper">
   <div class="highlight-toolbar">
     <span class="item">
       <span class="label">Lang:</span>
-      <span class="name"></span>
+      <span class="name">bash</span>
     </span>
 
 
     <button class="item right outline brighter hide js-btn-copy-code">Copy</button>
-  </div><pre tabindex="0"><code>grub-install /dev/sdx
-grub-mkconfig -o /boot/grub/grub.cfg
-
-umount -a</code></pre></div>
+  </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl">grub-install /dev/sdx
+</span></span><span class="line"><span class="ln">2</span><span class="cl">grub-mkconfig -o /boot/grub/grub.cfg
+</span></span><span class="line"><span class="ln">3</span><span class="cl">
+</span></span><span class="line"><span class="ln">4</span><span class="cl">umount -a</span></span></code></pre></div></div>
 <p>Adding windows on grub or other OS</p>
 <p>install os-prober</p>
 <p>edit <code>/etc/default/grub</code> and uncomment <code>GRUB_DISABLE_OS_PROBER=false</code></p>
@@ -224,25 +257,25 @@ umount -a</code></pre></div>
   <div class="highlight-toolbar">
     <span class="item">
       <span class="label">Lang:</span>
-      <span class="name"></span>
+      <span class="name">bash</span>
     </span>
 
 
     <button class="item right outline brighter hide js-btn-copy-code">Copy</button>
-  </div><pre tabindex="0"><code>grub-mkconfig -o /boot/grub/grub.cfg</code></pre></div>
+  </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl">grub-mkconfig -o /boot/grub/grub.cfg</span></span></code></pre></div></div>
 
 <div class="highlight-wrapper">
   <div class="highlight-toolbar">
     <span class="item">
       <span class="label">Lang:</span>
-      <span class="name"></span>
+      <span class="name">zsh</span>
     </span>
 
 
     <button class="item right outline brighter hide js-btn-copy-code">Copy</button>
-  </div><pre tabindex="0"><code>umount -a 
-
-reboot</code></pre></div>
+  </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="ln">1</span><span class="cl">umount -a 
+</span></span><span class="line"><span class="ln">2</span><span class="cl">
+</span></span><span class="line"><span class="ln">3</span><span class="cl">reboot</span></span></code></pre></div></div>
 
       </div>
 
@@ -253,7 +286,7 @@ reboot</code></pre></div>
         </main>
         <footer class="site-footer">
 <p class="buildinfo">
-  <time datetime="2024-03-26 15:57:32 IST">Site built on: 2024-03-26 15:57:32 IST</time>
+  <time datetime="2024-03-26 16:06:32 IST">Site built on: 2024-03-26 16:06:32 IST</time>
 </p>
 <div class="copyright">
   <p>© Dinan Mariano
