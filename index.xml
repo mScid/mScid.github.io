@@ -55,18 +55,6 @@ I apologize for failing as a lecturer. Thank you, and I will be better the next 
 </content>
     </item>
     <item>
-      <title>Follow my meme page on Facebook!</title>
-      <link>https://mScid.github.io/posts/first-post/</link>
-      <pubDate>Tue, 26 Mar 2024 00:04:14 +0800</pubDate>
-
-      <guid>https://mScid.github.io/posts/first-post/</guid>
-      <description>Please like Wilposting on Facebook thanks!
-Yes it&amp;rsquo;s a meme page I created along with my friends. LMAO</description>
-      <content>&lt;p&gt;Please like &lt;a href=&#34;https://www.facebook.com/kuyawilposting/&#34;&gt;Wilposting&lt;/a&gt; on Facebook thanks!&lt;/p&gt;
-&lt;p&gt;Yes it&amp;rsquo;s a meme page I created along with my friends. LMAO&lt;/p&gt;
-</content>
-    </item>
-    <item>
       <title></title>
       <link>https://mScid.github.io/docs/collectionofideas/arch-linux-installation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -257,6 +245,61 @@ Yes it&amp;rsquo;s a meme page I created along with my friends. LMAO</descriptio
   &lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;umount -a 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;reboot&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</content>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mScid.github.io/docs/testing/math/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+
+      <guid>https://mScid.github.io/docs/testing/math/</guid>
+      <description>Testing math on this websiteBlock equationsPythagorean Theorem\[a^2 + b^2 = c^2\] Time Dependent Schrodinger Equation\[\frac{-\hbar ^2}{2m} \frac{\partial^2 \Psi(x,t)}{\partial x^2} + V(x)\Psi(x,t) = i\hbar \frac{\partial\Psi(x,t)}{\partial t}\] </description>
+      <content>
+&lt;h2 id=&#34;testing-math-on-this-website&#34;&gt;
+  Testing math on this website
+  &lt;a href=&#34;#testing-math-on-this-website&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h2&gt;
+
+&lt;h3 id=&#34;block-equations&#34;&gt;
+  Block equations
+  &lt;a href=&#34;#block-equations&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h3&gt;
+
+&lt;h4 id=&#34;pythagorean-theorem&#34;&gt;
+  Pythagorean Theorem
+  &lt;a href=&#34;#pythagorean-theorem&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+\[a^2 + b^2 = c^2\]
+
+&lt;h4 id=&#34;time-dependent-schrodinger-equation&#34;&gt;
+  Time Dependent Schrodinger Equation
+  &lt;a href=&#34;#time-dependent-schrodinger-equation&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+\[\frac{-\hbar ^2}{2m} \frac{\partial^2 \Psi(x,t)}{\partial x^2} + V(x)\Psi(x,t) = i\hbar \frac{\partial\Psi(x,t)}{\partial t}\]
+</content>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mScid.github.io/docs/testing/slides/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+
+      <guid>https://mScid.github.io/docs/testing/slides/</guid>
+      <description>IntroductionSlide 2Features</description>
+      <content>
+&lt;h2 id=&#34;introduction&#34;&gt;
+  Introduction
+  &lt;a href=&#34;#introduction&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h2&gt;
+
+&lt;h2 id=&#34;slide-2&#34;&gt;
+  Slide 2
+  &lt;a href=&#34;#slide-2&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h2&gt;
+
+&lt;h2 id=&#34;features&#34;&gt;
+  Features
+  &lt;a href=&#34;#features&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h2&gt;
 </content>
     </item>
     <item>

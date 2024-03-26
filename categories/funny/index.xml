@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Funny on Dinan</title>
-    <link>https://mScid.github.io/categories/funny/</link>
+    <link>http://localhost:1313/categories/funny/</link>
     <description>Recent content in Funny on Dinan</description>
     <generator>Hugo -- gohugo.io</generator>
       <language>en</language>
       <copyright>© Dinan Mariano</copyright>
-      <lastBuildDate>Tue, 26 Mar 2024 00:04:14 +0800</lastBuildDate><atom:link href="https://mScid.github.io/categories/funny/index.xml" rel="self" type="application/rss+xml" />
+      <lastBuildDate>Tue, 26 Mar 2024 00:04:14 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/funny/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Follow my meme page on Facebook!</title>
-      <link>https://mScid.github.io/posts/first-post/</link>
+      <link>http://localhost:1313/posts/first-post/</link>
       <pubDate>Tue, 26 Mar 2024 00:04:14 +0800</pubDate>
 
-      <guid>https://mScid.github.io/posts/first-post/</guid>
+      <guid>http://localhost:1313/posts/first-post/</guid>
       <description>Please like Wilposting on Facebook thanks!
 Yes it&amp;rsquo;s a meme page I created along with my friends. LMAO</description>
       <content>&lt;p&gt;Please like &lt;a href=&#34;https://www.facebook.com/kuyawilposting/&#34;&gt;Wilposting&lt;/a&gt; on Facebook thanks!&lt;/p&gt;
