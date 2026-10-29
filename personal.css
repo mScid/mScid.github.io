@@ -216,3 +216,50 @@ a:hover { color: var(--orange); text-decoration-color: currentColor; }
   .certificate-card > div:nth-child(2) { flex: 1 1 calc(100% - 62px); }
   .certificate-actions { flex-direction: row; align-items: center; justify-content: space-between; width: 100%; margin: 0; }
 }
+
+/* Shared navigation for the interior pages. */
+.inner-topbar { width: 100%; }
+.inner-topbar .main-nav { display: flex; align-items: center; }
+@media (max-width: 440px) { .inner-topbar { flex-wrap: wrap; gap: 12px; padding: 16px 0; } }
+
+.feature-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@media (max-width: 760px) { .feature-grid { grid-template-columns: 1fr; } }
+
+.about-portrait { float: right; width: min(38%, 310px); margin: 0 0 24px 30px; }
+.about-portrait img { display: block; width: 100%; }
+.about-portrait figcaption { color: var(--muted); font-size: 11px; margin-top: 8px; }
+.research-highlight { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 40px; padding: 70px 0; }
+.research-highlight h2 { font: 500 clamp(30px, 4vw, 48px)/1.15 var(--serif); }
+.research-highlight p:not(.eyebrow) { color: var(--muted); line-height: 1.8; }
+.research-poster { display: block; color: var(--green); font-size: 12px; }
+.research-poster img { display: block; width: 100%; border: 1px solid var(--line); margin-bottom: 8px; }
+.cv-print-button { cursor: pointer; border: 0; background: var(--green); color: white; padding: 12px 16px; font: inherit; }
+@media (max-width: 760px) { .research-highlight { grid-template-columns: 1fr; gap: 24px; padding: 48px 0; } .about-portrait { float: none; width: min(100%, 360px); margin: 0 0 24px; } }
+@media print { .site-header, .site-footer, .cv-print-button, .post-meta, .hanchor { display: none !important; } .container.center { width: 100%; max-width: none; } .site-main { padding: 0; } .post-content { font-size: 10pt; line-height: 1.45; } .post-content h2, .post-content h3, .post-content h4 { break-after: avoid; } .cv-experience { break-inside: avoid; } }
+
+/* Colors inspired by the SPVM research poster. */
+:root { --paper: #f7f9fc; --paper-dark: #eaf1f7; --ink: #102c4b; --muted: #52677b; --green: #103153; --green-dark: #0a223d; --orange: #227fba; --line: #cddbe6; }
+a { text-decoration-color: #9abbd2; }
+.intro, .post-content { color: #344d62; }
+.art-card { background: #fff; box-shadow: 16px 16px 0 #dcebf5; }
+.art-orbit { border-color: #aac9dd; }
+.status-dot { box-shadow: 0 0 0 4px #dceef9; }
+.card-writing { background: #e5f0f8; }
+.card-profile { background: #eaf2f7; }
+.feature-card p, .interest-list span { color: #405a70; }
+.featured-writing { color: #fff; }
+.featured-writing .eyebrow { color: #b9def5; }
+.featured-writing p:last-child { color: #dfecf5; }
+.button-primary span, .certificate-button span { color: #b9def5; }
+.certificate-card { background: #eaf2f7; }
+.certificate-mark { background: #d4e9f6; }
+
+.project-page { padding: 72px 0 45px; }
+.project-page > h1 { max-width: 800px; margin: 0; font: 500 clamp(42px, 6vw, 72px)/1.08 var(--serif); letter-spacing: -.04em; }
+.project-intro { color: var(--muted); margin: 22px 0 60px; }
+.project-detail { display: grid; grid-template-columns: 1.1fr .9fr; gap: 48px; padding: 40px 0; border-top: 1px solid var(--line); align-items: start; }
+.project-copy h2 { font: 500 clamp(25px, 3vw, 36px)/1.25 var(--serif); }
+.project-copy p:not(.eyebrow) { color: #344d62; line-height: 1.8; }
+.project-links { display: flex; align-items: center; flex-wrap: wrap; gap: 22px; margin-top: 26px; }
+@media (max-width: 760px) { .project-page { padding-top: 48px; } .project-detail { grid-template-columns: 1fr; gap: 30px; } }
+@media (max-width: 440px) { .topbar { flex-wrap: wrap; gap: 12px; padding: 16px 0; } }
