@@ -263,3 +263,7 @@ a { text-decoration-color: #9abbd2; }
 .project-links { display: flex; align-items: center; flex-wrap: wrap; gap: 22px; margin-top: 26px; }
 @media (max-width: 760px) { .project-page { padding-top: 48px; } .project-detail { grid-template-columns: 1fr; gap: 30px; } }
 @media (max-width: 440px) { .topbar { flex-wrap: wrap; gap: 12px; padding: 16px 0; } }
+
+.card-projects { background: #dcebf5; }
+.feature-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+@media (max-width: 760px) { .feature-grid { grid-template-columns: 1fr; } }
