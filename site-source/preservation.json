@@ -1,0 +1,295 @@
+{
+  "original_paths": [
+    ".nojekyll",
+    "404.html",
+    "Acadrev.jpg",
+    "README.md",
+    "about/index.html",
+    "archives/index.html",
+    "assets/css/stylesheet.4599eadb9eb2ad3d0a8d6827b41a8fda8f2f4af226b63466c09c5fddbc8706b7.css",
+    "assets/spvm-poster.png",
+    "bundle.js",
+    "bundle.min.js",
+    "categories/facebook/index.html",
+    "categories/facebook/index.xml",
+    "categories/facebook/page/1/index.html",
+    "categories/funny/index.html",
+    "categories/funny/index.xml",
+    "categories/funny/page/1/index.html",
+    "categories/index.html",
+    "categories/index.xml",
+    "categories/learn/index.html",
+    "categories/learn/index.xml",
+    "categories/learn/page/1/index.html",
+    "categories/meme/index.html",
+    "categories/meme/index.xml",
+    "categories/meme/page/1/index.html",
+    "categories/personal/index.html",
+    "categories/personal/index.xml",
+    "categories/personal/page/1/index.html",
+    "categories/teaching/index.html",
+    "categories/teaching/index.xml",
+    "categories/teaching/page/1/index.html",
+    "css/fonts.css",
+    "css/style.css",
+    "cv/index.html",
+    "education/index.html",
+    "experience/index.html",
+    "img/Acadrev.jpg",
+    "index.html",
+    "index.xml",
+    "logo/logo.png",
+    "logo/peak.png",
+    "page/1/index.html",
+    "personal.css",
+    "posts/academic-review/index.html",
+    "posts/first-post/index.html",
+    "posts/index.html",
+    "posts/index.xml",
+    "posts/page/1/index.html",
+    "posts/spvm-28th-national-physics-conference/best-presentation-certificate.pdf",
+    "posts/spvm-28th-national-physics-conference/images/award-ceremony.png",
+    "posts/spvm-28th-national-physics-conference/images/award-stage.png",
+    "posts/spvm-28th-national-physics-conference/images/beside-poster.png",
+    "posts/spvm-28th-national-physics-conference/images/with-sir-padama.png",
+    "posts/spvm-28th-national-physics-conference/index.html",
+    "posts/test-post/index.html",
+    "projects/index.html",
+    "screenshots/hugo-xterm-ss-01-dark.png",
+    "screenshots/hugo-xterm-ss-02-light.png",
+    "screenshots/hugo-xterm-ss-03-cv.png",
+    "screenshots/hugo-xterm-ss-04-slides.png",
+    "sitemap.xml",
+    "skills/index.html",
+    "styles.css",
+    "styles.css.map",
+    "styles.e41f23166384827419ab9a99bada0acca70ddae13b97dd1dd99ee17177157fff.css",
+    "tags/academic-review/index.html",
+    "tags/academic-review/index.xml",
+    "tags/academic-review/page/1/index.html",
+    "tags/facebook/index.html",
+    "tags/facebook/index.xml",
+    "tags/facebook/page/1/index.html",
+    "tags/funny/index.html",
+    "tags/funny/index.xml",
+    "tags/funny/page/1/index.html",
+    "tags/index.html",
+    "tags/index.xml",
+    "tags/meme/index.html",
+    "tags/meme/index.xml",
+    "tags/meme/page/1/index.html",
+    "tags/page/index.html",
+    "tags/page/index.xml",
+    "tags/page/page/1/index.html",
+    "tags/personal/index.html",
+    "tags/personal/index.xml",
+    "tags/teaching/index.html",
+    "tags/teaching/index.xml",
+    "tags/teaching/page/1/index.html"
+  ],
+  "pages": {
+    "404.html": {
+      "text": "404 — Page not found... Back to home page →",
+      "missing": []
+    },
+    "index.html": {
+      "text": "Applied Physics · UPLB Curious about how the world works. I’m Dinan, an Applied Physics student at the University of the Philippines Los Baños. This is where I share what I’m learning, working on, and thinking about. A little about me ↗ Read my writing → Los Baños, Philippines Physics · Technology · Ideas A personal space for notes and discoveries. 01 / ABOUT ✳ A few things I enjoy Ideas lead to other ideas. Physics Materials Science Technology Programming Cybersecurity Formula 1 Games Cycling Explore Things I’ve put together. Writing and a snapshot of my experience. 01 — WRITING ↗ Posts Reflections and stories from study, teaching, and everyday life. Browse writing → 02 — PROJECTS ↗ Projects Research and ideas I’m exploring through physics and computation. Explore projects → 03 — PROFILE ✳ Experience My education, research, volunteering, and skills in one place. View my CV → Research · Computational materials physics Exploring new materials, atom by atom. My college thesis uses first-principles calculations to investigate the structure and electronic properties of a two-dimensional high-entropy transition metal dichalcogenide, (MoWVNbTa)S₂. Explore my research → View full poster ↗ Conference notes · October 2026 My first conference, a proud first. Best Presentation in the SPVM Poster Session. ↗ Say hello Have an idea to share? Get in touch ↗",
+      "missing": []
+    },
+    "experience/index.html": {
+      "text": "Experience Work in progress…",
+      "missing": [
+        "/images/xterm.png",
+        "/livereload.js?mindelay=10&v=2&port=1313&path=livereload"
+      ]
+    },
+    "education/index.html": {
+      "text": "Education Table of Contents High School 2013-2019 - Regional Science High School University 2019-Present - University of the Philippines Los Baños",
+      "missing": [
+        "/images/xterm.png",
+        "/livereload.js?mindelay=10&v=2&port=1313&path=livereload"
+      ]
+    },
+    "archives/index.html": {
+      "text": "Archives",
+      "missing": [
+        "/livereload.js?mindelay=10&v=2&port=1313&path=livereload"
+      ]
+    },
+    "tags/index.html": {
+      "text": "Tags Academic Review (1) Teaching (1)",
+      "missing": []
+    },
+    "posts/index.html": {
+      "text": "Posts Blog posts See My First Conference — Best Presentation at SPVM October 2026 Academic Review 2024 2024-03-26",
+      "missing": []
+    },
+    "about/index.html": {
+      "text": "About Other stuff about me Table of Contents Background Education and Qualifications Passions and Interests Goal Why This Website Get in Touch At the 28th SPVM National Physics Conference. Hi, I’m Dinan, an Applied Physics student at the University of the Philippines Los Baños. I’m curious about how the world works and enjoy exploring that question through research and technology. Background I’ve been fascinated by physics since high school. For me, studying physics is a way to understand the world around us and the laws that shape it. Education and Qualifications At UPLB, I developed an interest in materials science. My college thesis uses first-principles calculations to study a two-dimensional high-entropy transition metal dichalcogenide. I’m also interested in cybersecurity and continue to learn about it through certifications. My first conference was the 28th National Physics Conference of the Samahang Pisika ng Visayas at Mindanao, where I presented my research poster and received Best Presentation in the poster session. I’m grateful to Sir Padama for his guidance and supervision. Read about the experience . I’ve also enjoyed sharing what I learn with others, including serving as a lecturer for the UP Mindoreños Academic Review in Victoria, Oriental Mindoro. Passions and Interests Outside physics, I enjoy video games, Formula 1, technology, and programming. I use Arch Linux and enjoy learning how computers work, from software to PC hardware. I’m also working on a browser game inspired by density functional theory, bringing together my interests in physics, programming, and games. Goal My immediate goal is to complete my degree. In the long term, I hope to contribute to physics and technology in the Philippines through the work I do and the things I learn. Why This Website I created this website to share my experiences, research, and ideas. You’ll find my CV here, along with posts about things I’ve learned and moments worth remembering. Get in Touch I’d be happy to connect, discuss ideas, or hear about opportunities to collaborate. You can reach me at dinanmariano@gmail.com . Thanks for stopping by!",
+      "missing": []
+    },
+    "projects/index.html": {
+      "text": "Research & projects Exploring materials at the atomic scale. A closer look at the questions I’m investigating through physics and computation. College thesis · Materials science First-Principles Investigations of the Properties of 2D High-Entropy Transition Metal Dichalcogenides: (MoWVNbTa)S₂ With Allan Abraham B. Padama In this thesis, I use first-principles calculations to investigate a two-dimensional material containing five transition metals. The study explores its atomic structure and electronic properties, including how charge is distributed between its constituent elements. The calculated band structures and density of states suggest metallic behavior, while the cohesive energies support the stability of the investigated structures. I presented this work at the 28th SPVM National Physics Conference, where it received Best Presentation in the poster session. View the poster ↗ Read the conference post → View full poster ↗",
+      "missing": []
+    },
+    "cv/index.html": {
+      "text": "Jan Mariano Dinan S. Mariano dinanmariano@gmail.com My profile Save CV as PDF ↗ Education University of the Philippines Los Baños Aug 2019 - Present Bachelor of Science in Applied Physics Los Baños, Philippines Research Experience College Thesis First-Principles Investigations of the Properties of 2D High-Entropy Transition Metal Dichalcogenides: (MoWVNbTa)S₂ Jan Mariano Dinan S. Mariano and Allan Abraham B. Padama High School Research Development of 3D printing filaments from Polyethylene Terephthalate (PET) Awards & Recognition Best Presentation, SPVM Poster Session October 2026 28th National Physics Conference, Samahang Pisika ng Visayas at Mindanao Ateneo de Davao University Experience Special Program for the Employment of Students (SPES) Summer 2018 Budget Office Municipal Hall Bulalacao Special Program for the Employment of Students (SPES) Summer 2017 Human Resources Office Municipal Hall Bulalacao Volunteer Experiences UPLB Naruto Run September 2026 Host University of the Philippines Los Baños UP Mindoreños Academic Review May 2026 Lecturer Victoria, Oriental Mindoro UP Mindoreños Academic Review January 2024 Lecturer San Jose, Occidental Mindoro UPLB Naruto Run October 2023 Co-Host UP Los Baños UPLB Naruto Run October 2022 Co-Host UP Los Baños Taal Volcano Eruption Disaster Relief January 2020 Volunteer UP Los Baños UP Mindoreños Academic Review July 2019 Lecturer San Jose, Occidental Mindoro Certifications Operating Systems Basics October 2026 DICT-ITU DTC Initiative through Cisco Networking Academy Completed October 12, 2026 Skills Programming Languages: Proficient in Python and Fortran Proficient in LaTeX Experience in HTML 3D Printing Experience in 3D Printing Linux: Literate in Linux based Operating Systems Advanced skills in Linux Graphics: Experience in Adobe Photoshop and Premiere as well as Gimp Problem Solving: Strong problem-solving skills with a logical and analytical approach Experience in troubleshooting and debugging complex technical issues Communication: Excellent verbal and written communication skills Ability to convey technical concepts to non-technical stakeholders effectively Teamwork: Proven ability to work collaboratively in cross-functional teams to achieve project goals. Continuous Learning: Passionate about learning new technologies and staying updated with industry trends. Dedication to self-improvement and skill enhancement through online courses, workshops, and projects. Hobbies Video Games Coding Making content Music Tinkering with technology",
+      "missing": []
+    },
+    "categories/index.html": {
+      "text": "Categories Learn (1) Teaching (1)",
+      "missing": []
+    },
+    "skills/index.html": {
+      "text": "Skills Table of Contents Programming Languages: Graphics: Problem Solving: Communication: Teamwork: Continuous Learning: Programming Languages: Proficent in Python and Fortran Experience in HTML Graphics: Experience in Adobe Photoshop and Premiere as well as Gimp Problem Solving: Strong problem-solving skills with a logical and analytical approach Experience in troubleshooting and debugging complex technical issues Communication: Excellent verbal and written communication skills Ability to convey technical concepts to non-technical stakeholders effectively Teamwork: Proven ability to work collaboratively in cross-functional teams to achieve project goals. Continuous Learning: Passionate about learning new technologies and staying updated with industry trends. Dedication to self-improvement and skill enhancement through online courses, workshops, and projects.",
+      "missing": [
+        "/images/xterm.png",
+        "/livereload.js?mindelay=10&v=2&port=1313&path=livereload"
+      ]
+    },
+    "categories/personal/index.html": {
+      "text": "Personal See Follow my page on Facebook! 2024-03-26",
+      "missing": [
+        "/livereload.js?mindelay=10&v=2&port=1313&path=livereload"
+      ]
+    },
+    "categories/funny/index.html": {
+      "text": "Funny See Follow my meme page on Facebook! 2024-03-26",
+      "missing": [
+        "/images/xterm.png",
+        "/livereload.js?mindelay=10&v=2&port=1313&path=livereload"
+      ]
+    },
+    "categories/learn/index.html": {
+      "text": "Learn See Academic Review 2024 2024-03-26",
+      "missing": []
+    },
+    "categories/teaching/index.html": {
+      "text": "Teaching See Academic Review 2024 2024-03-26",
+      "missing": []
+    },
+    "categories/meme/index.html": {
+      "text": "Meme See Follow my meme page on Facebook! 2024-03-26",
+      "missing": [
+        "/images/xterm.png",
+        "/livereload.js?mindelay=10&v=2&port=1313&path=livereload"
+      ]
+    },
+    "categories/facebook/index.html": {
+      "text": "Facebook See Follow my meme page on Facebook! 2024-03-26",
+      "missing": [
+        "/images/xterm.png",
+        "/livereload.js?mindelay=10&v=2&port=1313&path=livereload"
+      ]
+    },
+    "posts/spvm-28th-national-physics-conference/index.html": {
+      "text": "Conference notes · October 22–24, 2026 My First Conference — Best Presentation at SPVM Samahang Pisika ng Visayas at Mindanao’s 28th National Physics Conference · Ateneo de Davao University My first conference was the Samahang Pisika ng Visayas at Mindanao (SPVM) 28th National Physics Conference , held at Ateneo de Davao University from October 22–24, 2026. I presented my research in the SPVM Poster Session, and I’m proud to have received Best Presentation . The poster presented my work, “First-Principles Investigations of the Properties of 2D High-Entropy Transition Metal Dichalcogenides: (MoWVNbTa)S₂.” Thank you, Sir Padama, for your guidance and supervision. I’m grateful for your support throughout this work, and proud to have shared it at my first conference. ✳ A keepsake from my first conference Certificate of Recognition Best Presentation · SPVM Poster Session View certificate ↗ Download PDF Recognized for Best Presentation in the SPVM Poster Session. A moment from the award ceremony. With Sir Padama beside our research poster. The poster presented at the conference.",
+      "missing": []
+    },
+    "posts/academic-review/index.html": {
+      "text": "Academic Review 2024 DATE UPDATED Tags: # Academic Review # Teaching I am very passionate about physics, turns out that being passionate does not equate to being great at teaching it. I was excited at the thought of teaching Physics, a thing that I’m very passionate about and what I’m studying currently. I’ve prepared my carefully created slides along with a funny intro, a bunch of physics topics, and some quizzes along the way. I was very prepared for it. The very first day was just an opening event, along with their Pre-test during the afternoon. It was all very successful and my enthusiasm is very high imagining teaching those kids physics, hopefully igniting their spirits into studying physics and enjoying it more. I even hope that there’s some student that I could hopefully inspire to take up Physics as their degree program. The day finally came where I would be teaching. I started with my funny intro (I definitely think it is funny), and started teaching. The first topic was Scalars and Vectors which is easily grasped by students and I see them actively participating on answering which is which. The next is vector addition. We started with one dimension where you can just add or subtract them. Then the 2D vectors came in where you’re going to use the Pythagorean theorem for it. I thought that this would be easy for them as it is just basic trigonometry but I was surprised that some students don’t know it (I’m looking at you DepEd). I taught some trigonometry crash course for a second but this is just a foreshadowing of problems to come. We passed on some more trigonometry which I can sense that the students can’t fully grasp, which is a problem considering that physics is very math-heavy. We moved on to Motion which started with some definitions of some terms in which my students can finally understand again. The difference of distance and displacement is easy, then speed and displacement, which started some equations once more and I can see that the students are grasping very little of it, then we go to UARM, which was literally just equations. I can see that almost no one understands it at a glance. It’s a problem that I didn’t expect since this event was supposed to be a crash course of physics, not me teaching physics from scratch. I thought that this would be easy, but it was very far from that. From there, we delved into more equations, in which I try to explain in a “physical sense” and not in “equation form” to at least let them grasp the topic a little. But I can see that only few are actively listening and maybe one or two actually understands what I’m teaching. My motivation, from very high is now so low. After I finished teaching one section, I expected that the other two sections that I’ll be teaching will be the same. I messed up. I should’ve focused more on things that they could understand and focused on it instead of dumping them with all the knowledge that I understand but they wouldn’t understand. I tried to fix my teaching in the other two sections but still, what I prepared was a mess. I couldn’t let them understand it. Albert Einstein said it himself, “If you can’t explain it to a six-year-old, you don’t understand it yourself” . What more that I can’t teach high school students basic physics? I recieved some comments that I was intelligent, that they couldn’t understand what I’m saying. I took that as a blow. I failed as a lecturer. It was a wake up call for me that I failed. I was ashamed of myself but what could I do? I partly blame the education in the Philippines. You might think that this is me just blaming others about my shortcomings, but I think students should at least know those topics because I’ve been in high school too, and I’ve learned those in high school. Yes, I’m from a Science High School but the education needs to be the same for everybody. The education system must be changed. I’m also not blaming the teachers because they are also underpaid and overworked due to our system. Despite those, I’m grateful for that opportunity because I learned a lot about myself and others. The next time that I’ll be teaching someone, I need to understand where are they coming from. What do they know? This failure taught me what I need to learn. There is indeed only success and learning, you only fail if you didn’t learn. I thought that I’ll be teaching kids physics before the event but I ended up learning about teaching. Thank you, UP MINDOREÑOS for the opportunity and I also want to thank the students for trying to understand what I taught. I apologize for failing as a lecturer. Thank you, and I will be better the next time around.",
+      "missing": []
+    },
+    "posts/first-post/index.html": {
+      "text": "Follow my meme page on Facebook! DATE UPDATED Tags: # meme Please like Wilposting on Facebook thanks! Yes it’s a meme page I created along with my friends. LMAO Read other posts Academic Review 2024 ⇒",
+      "missing": [
+        "/images/xterm.png",
+        "/livereload.js?mindelay=10&v=2&port=1313&path=livereload"
+      ]
+    },
+    "tags/page/index.html": {
+      "text": "Page See Follow my page on Facebook! 2024-03-26",
+      "missing": [
+        "/images/xterm.png",
+        "/livereload.js?mindelay=10&v=2&port=1313&path=livereload"
+      ]
+    },
+    "tags/funny/index.html": {
+      "text": "Funny See",
+      "missing": [
+        "/images/xterm.png",
+        "/livereload.js?mindelay=10&v=2&port=1313&path=livereload"
+      ]
+    },
+    "tags/academic-review/index.html": {
+      "text": "Academic Review See Academic Review 2024 2024-03-26",
+      "missing": []
+    },
+    "tags/teaching/index.html": {
+      "text": "Teaching See Academic Review 2024 2024-03-26",
+      "missing": []
+    },
+    "tags/meme/index.html": {
+      "text": "Meme See Follow my meme page on Facebook! 2024-03-26",
+      "missing": [
+        "/images/xterm.png",
+        "/livereload.js?mindelay=10&v=2&port=1313&path=livereload"
+      ]
+    },
+    "tags/facebook/index.html": {
+      "text": "Facebook See Follow my page on Facebook! 2024-03-26",
+      "missing": [
+        "/images/xterm.png",
+        "/livereload.js?mindelay=10&v=2&port=1313&path=livereload"
+      ]
+    }
+  },
+  "unchanged": {
+    "styles.e41f23166384827419ab9a99bada0acca70ddae13b97dd1dd99ee17177157fff.css": "e41f23166384827419ab9a99bada0acca70ddae13b97dd1dd99ee17177157fff",
+    ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "Acadrev.jpg": "934824d11f64391072eb84319fd05398f7d998a0ef24754fbcbe5924a5b9e712",
+    "styles.css.map": "b375b4e3e73581b7b539c2d4f1566d92896eba107e87f50c9c248b5d8885b611",
+    "index.xml": "db6f2d3cb662f600f4eb43e98e2aafbc8efba3853cbe37cea015240e071262d0",
+    "styles.css": "54819edce12c8ddbaa40d651265c72b3812df39ef2333c92dd48cee7f9db9385",
+    "bundle.js": "6636f474c5436d58fcd3ca7b47d7e2f0ec114a38b8680ca07c3372bc531b50e3",
+    "bundle.min.js": "5851392303113e962e8d34047c33d9b5a91d3d3f243ee302b973e77c26a6a124",
+    "screenshots/hugo-xterm-ss-02-light.png": "d120f4003d2df4d853ce78240b4c38374bd5767d401f1ae595fa0b8c56c7d721",
+    "screenshots/hugo-xterm-ss-03-cv.png": "23ca4683b74f9ca1e1cebbbd643ca4d3e6855bdb50ed6fa7f946833790a43642",
+    "screenshots/hugo-xterm-ss-01-dark.png": "ef238bc11bb4ce087b59a566947a25565e0bb2569fb47b887dd6d7720b6daf66",
+    "screenshots/hugo-xterm-ss-04-slides.png": "68e37ce22662008b715de918a1349fb658bbf7373dd6e85d0ae64d972d5488a9",
+    "img/Acadrev.jpg": "934824d11f64391072eb84319fd05398f7d998a0ef24754fbcbe5924a5b9e712",
+    "tags/index.xml": "46911afd3379b3707d2ed061b8e92db22ca3199f6bfeacc1cf1040dc69d4173d",
+    "posts/index.xml": "b3d869579c33409e67dc5feb2103223c80e232db9383d5e00e2a41bce21a69ef",
+    "css/fonts.css": "e1c25e6009b4b9cf503aefe65c74622975ce7d573687795c5a424c7753f025b3",
+    "css/style.css": "c918fabcd1856e4c5df6ef49dd47f4bbbc5177085ba5dade857490d477c6251e",
+    "logo/logo.png": "5c5170dab30e940825aee89d5172632cf859cbf87016057eb8ddde4b908f2e74",
+    "logo/peak.png": "0ed26f6a8e20532b6e85c16eb4d9d27aafd2f15a4bc90915fa6d09e046a6badb",
+    "assets/spvm-poster.png": "1da3b456a1f0298a5df443ccf8547d1979266804c764073c74c45216bcda4b14",
+    "categories/index.xml": "035438319c6541d8d2b642bc6a8ef9ef407fec5ef4f11aee430ff64e7b99d731",
+    "categories/personal/index.xml": "3da22bd577f18f324113d92e64e55f56e18d952cee0ae29cadf4f525db7e57d5",
+    "categories/funny/index.xml": "8271b877698f6df0d53b482f2f942e8fa1797922a9295945612b288023a3a501",
+    "categories/learn/index.xml": "9841099e60f3a07b5ceda3ad01fbdcfd6b3328e3e106a56deef1ea99654f3226",
+    "categories/teaching/index.xml": "06c876d101dbd927865f8cd2246ccc2870057c3dd347c79510f4db2d293b59f8",
+    "categories/meme/index.xml": "b0238205148b85b9a1ab8f9d845c58ec28e6130efac132f0ef184f21321b02ab",
+    "categories/facebook/index.xml": "490312c987198335b1c53eef82ff697f78e79816178948946c67ce2b0477ca25",
+    "categories/facebook/page/1/index.html": "fbb9a1af63dce08ad9262cbaeda703a196a8b89f7a1c877995115a2e05c0f735",
+    "categories/meme/page/1/index.html": "105e8498a8aebaf1b3a318e1abb4cf64fee1fc6e2c935801c67283bcba41e877",
+    "categories/teaching/page/1/index.html": "21e13735a00e50d51e51edede0533f877b1afbcf27945c00488acc79cc4b8725",
+    "categories/learn/page/1/index.html": "f70bbbb0f06548a6af875fec0dc7182c9d877fcccdb73285aa17f72653106ec3",
+    "categories/funny/page/1/index.html": "c1e94b9a17425ffeaa27ad1be6f9621cdeb7e91e0f9eedf2bed062d3b61dbdaf",
+    "categories/personal/page/1/index.html": "1e9a2246df6ef5190dec1cd57c3964dbdea882c7f3120f52346863adaf0b6c29",
+    "assets/css/stylesheet.4599eadb9eb2ad3d0a8d6827b41a8fda8f2f4af226b63466c09c5fddbc8706b7.css": "4599eadb9eb2ad3d0a8d6827b41a8fda8f2f4af226b63466c09c5fddbc8706b7",
+    "posts/spvm-28th-national-physics-conference/best-presentation-certificate.pdf": "dd744f1bb27ce0b70388c26de15275d9ef3e1b44c17ef7800732e1a7dc04dd0e",
+    "posts/test-post/index.html": "89a6f02f2ddf24d974dcd4e57db6caa61f00ea476e1eccb8ddca4d3aa33c9a12",
+    "posts/spvm-28th-national-physics-conference/images/award-stage.png": "cfed1115c098f895d919883e9bbe3fead50ac850c3dfa67ac785aa89ac065dd0",
+    "posts/spvm-28th-national-physics-conference/images/beside-poster.png": "6a43c52b0fe2ba879ecec1b67320b28a3b7e489d8be16bc9e14a59228a8b87f1",
+    "posts/spvm-28th-national-physics-conference/images/award-ceremony.png": "c91aa28199c143e9ac5481fde9ca933fffc6682ecc33e09d3e3a5a2111b99811",
+    "posts/spvm-28th-national-physics-conference/images/with-sir-padama.png": "bc1de06a905e175dc37d82ad1b10e5aad60c184ccfaa16e717f1ec3732104017",
+    "posts/page/1/index.html": "67afe56f171d3dfef60270e6b80c0b620a3edd708897910d66d34ab3a519e5a9",
+    "tags/page/index.xml": "232fabaeead6ccfbe8c866eb50cb6a90a83bcdb7a6d6a6814b984cfcef8c7c05",
+    "tags/personal/index.xml": "41f441df620f87307d9497ed912c6f79d4cf8a912bba1d4654c477c24b1e8912",
+    "tags/personal/index.html": "7c0032b6ebb6410a75a82f0fded2ff918d9a372f809b1d372a5c799149fcfc9f",
+    "tags/funny/index.xml": "3f6cc178825e5c0fb430dfd0cd5f41e05598d70bf015c685f0f68487e3045abb",
+    "tags/academic-review/index.xml": "000bd890e1aacaef338979f9e2c2e7f2bf79987fef691b02b6fe9766c5a6625b",
+    "tags/teaching/index.xml": "4175d2556a9518b61e873438370d58b56c17567a3e94d978423db646b715bd4d",
+    "tags/meme/index.xml": "74cf81654053843dabd68bed276398deaf37763117c8ac8ba1a949c7d6cf4bcc",
+    "tags/facebook/index.xml": "7485672caf48a04e72bb5df46dd7464c8e63dc6a5c76b2bea90a3471972c4cb0",
+    "tags/facebook/page/1/index.html": "a2d8a98c02f933b6d05548e9797f98236d886124b14d3daed1cfd4b753914509",
+    "tags/meme/page/1/index.html": "21f92ae79e715d2b4f58aba843c4b7b382945bff09bb4fbae68848582829bc12",
+    "tags/teaching/page/1/index.html": "8fe083eb830c104b1475253690d54f664abff17078347d81c6e5e827a45b905e",
+    "tags/academic-review/page/1/index.html": "ae80e95fa95f5ca40278fbb5939cbad84978fc4883eca8dc7a539de51fd59aed",
+    "tags/funny/page/1/index.html": "6a4819f5dd77e97c75410c619db08f9be8d10ea5c1474aff5a002b31516fe77b",
+    "tags/page/page/1/index.html": "1db8f50ce1b085b9a512a3b7405632ad76b418ffd83e731985e9e66d600f4338",
+    "page/1/index.html": "25b0d74662ff53cb6521ada30d66777a648abe90820e192c4b445cdedbf2e080"
+  }
+}

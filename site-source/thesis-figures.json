@@ -1,0 +1,65 @@
+{
+  "material": "Two-dimensional (MoWVNbTa)S2, supplied thesis figure set",
+  "originals": {
+    "assets/thesis/band_structure3.png": {
+      "sha256": "6509e55395b4de8520bdb961467d086dcf7ac6501ba33bb78e39dae6a5857141",
+      "identity": "Structure 3, band structure; verified from the visible plot title and legend."
+    },
+    "assets/thesis/ChargeTransferSulfur2.png": {
+      "sha256": "821f117fe20ea919ad7de4de488cc80ea57e1bb83282aa2e9d60d37586905908",
+      "identity": "Sulfur electron-population differences grouped by three bonded metal neighbors. Configuration identity not labeled."
+    },
+    "assets/thesis/ChargeTransferSulfur1.png": {
+      "sha256": "9f24da09b840c1333d8aa43de337f3a7402e4da0dc8bc3edf08476b9e5d0e1da",
+      "identity": "Sulfur electron-population differences grouped by three bonded metal neighbors. Configuration identity not labeled."
+    },
+    "assets/thesis/HEA_TDOS2.png": {
+      "sha256": "ec5b2b71330ad239f55dbe9c3d5a18040b52ad8d1e823aaad510c27b824f264d",
+      "identity": "Structure 2, spin-resolved total density of states; verified from the visible plot title and legend."
+    },
+    "assets/thesis/HEA_elemental_LDOS_spin3.png": {
+      "sha256": "98680eef505ae0f48ac5382c567152bbdebd15ae581abd418426b2ffe52ae6de",
+      "identity": "Structure 3, element-resolved spin-resolved density of states; verified from the visible plot title and legend."
+    },
+    "assets/thesis/band_structure1.png": {
+      "sha256": "e8bf740b43aa840cd09c5125eb1e16a59346b03554fbcee989899afc82b58880",
+      "identity": "Structure 1, band structure; verified from the visible plot title and legend."
+    },
+    "assets/thesis/HEA_elemental_LDOS_spin2.png": {
+      "sha256": "35b34095ec2c515854670bf29e6f4ad4051a8235e1994f58d154850be273d7c4",
+      "identity": "Structure 2, element-resolved spin-resolved density of states; verified from the visible plot title and legend."
+    },
+    "assets/thesis/HEA_elemental_LDOS_spin1.png": {
+      "sha256": "b48a6efe628c0766d6d49bce4ea4efbd6d366cbce2dcfc63980ddb243423de30",
+      "identity": "Structure 1, element-resolved spin-resolved density of states; verified from the visible plot title and legend."
+    },
+    "assets/thesis/ChargeTransferSulfur3.png": {
+      "sha256": "f3af6f91288b09c6a75377c12230b989f1c460f322e5f928117ebac30147df39",
+      "identity": "Sulfur electron-population differences grouped by three bonded metal neighbors. Configuration identity not labeled."
+    },
+    "assets/thesis/HEA_TDOS3.png": {
+      "sha256": "72e4a471663292b0b5f26d3aee664f25052ac9a85b0ab9c59d4a66c0e6dd36cd",
+      "identity": "Structure 3, spin-resolved total density of states; verified from the visible plot title and legend."
+    },
+    "assets/thesis/band_structure2.png": {
+      "sha256": "e42e73060f1fb8beb07e4f7e497da826068b46f2ab31c4a529f5d2f43658746b",
+      "identity": "Structure 2, band structure; verified from the visible plot title and legend."
+    },
+    "assets/thesis/HEA_TDOS1.png": {
+      "sha256": "ada5eae9d2690d113039503ee25291f277c736e14ac63a3a658e6733316da602",
+      "identity": "Structure 1, spin-resolved total density of states; verified from the visible plot title and legend."
+    }
+  },
+  "crop": {
+    "source": "assets/spvm-poster.png",
+    "source_sha256": "1da3b456a1f0298a5df443ccf8547d1979266804c764073c74c45216bcda4b14",
+    "output": "assets/thesis/crystal-structure.png",
+    "rectangle": {
+      "x": 2225,
+      "y": 900,
+      "width": 780,
+      "height": 555
+    },
+    "identity": "Atomic model from poster computational-details panel; no numbered structure assignment."
+  }
+}

@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap');
 
 :root {
-  --paper: #f6f3ec;
-  --paper-dark: #ece7dc;
-  --ink: #172b26;
-  --muted: #68736c;
-  --green: #2f624c;
-  --green-dark: #214b39;
-  --orange: #d47850;
-  --line: #d9d5ca;
+  --paper: #f7f9fc;
+  --paper-dark: #eaf1f7;
+  --ink: #102c4b;
+  --muted: #52677b;
+  --green: #103153;
+  --green-dark: #0a223d;
+  --orange: #227fba;
+  --line: #cddbe6;
   --serif: 'Playfair Display', Georgia, serif;
   --sans: 'DM Sans', 'Segoe UI', sans-serif;
   --mono: 'DM Mono', monospace;
@@ -78,7 +78,7 @@ a:hover { color: var(--orange); text-decoration-color: currentColor; }
 .explore { padding: 92px 0 88px; }
 .section-heading-row { display: flex; align-items: end; justify-content: space-between; gap: 32px; margin-bottom: 29px; }
 .section-note { max-width: 300px; margin: 0 0 3px; color: var(--muted); font-size: 13px; }
-.feature-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+.feature-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
 .feature-card { position: relative; display: flex; flex-direction: column; min-height: 255px; padding: 23px 23px 19px; overflow: hidden; border: 1px solid var(--line); color: var(--ink); text-decoration: none; transition: transform .2s, box-shadow .2s; }
 .feature-card:hover { color: var(--ink); transform: translateY(-4px); box-shadow: 0 10px 24px rgba(23,43,38,.08); }
 .card-writing { background: #e8eee6; }
@@ -95,7 +95,7 @@ a:hover { color: var(--orange); text-decoration-color: currentColor; }
 
 .featured-writing { display: flex; justify-content: space-between; align-items: center; gap: 28px; padding: 38px 42px; color: #f7f3e9; background: var(--green); }
 .featured-writing .eyebrow { color: #d6b28f; }
-.featured-writing h2 { margin: 0; font: 500 clamp(27px, 3.8vw, 43px)/1.15 var(--serif); letter-spacing: -.025em; }
+.featured-writing h2 { color: var(--surface); margin: 0; font: 500 clamp(27px, 3.8vw, 43px)/1.15 var(--serif); letter-spacing: -.025em; }
 .featured-writing p:last-child { margin: 12px 0 0; color: #d6e0d8; font-size: 12px; }
 .round-link { display: grid; place-items: center; flex: 0 0 54px; width: 54px; height: 54px; border: 1px solid rgba(255,255,255,.55); border-radius: 50%; color: white; font-size: 22px; text-decoration: none; transition: background .2s, color .2s; }
 .round-link:hover { color: var(--green); background: white; }
@@ -222,8 +222,8 @@ a:hover { color: var(--orange); text-decoration-color: currentColor; }
 .inner-topbar .main-nav { display: flex; align-items: center; }
 @media (max-width: 440px) { .inner-topbar { flex-wrap: wrap; gap: 12px; padding: 16px 0; } }
 
-.feature-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-@media (max-width: 760px) { .feature-grid { grid-template-columns: 1fr; } }
+
+
 
 .about-portrait { float: right; width: min(38%, 310px); margin: 0 0 24px 30px; }
 .about-portrait img { display: block; width: 100%; }
@@ -238,7 +238,6 @@ a:hover { color: var(--orange); text-decoration-color: currentColor; }
 @media print { .site-header, .site-footer, .cv-print-button, .post-meta, .hanchor { display: none !important; } .container.center { width: 100%; max-width: none; } .site-main { padding: 0; } .post-content { font-size: 10pt; line-height: 1.45; } .post-content h2, .post-content h3, .post-content h4 { break-after: avoid; } .cv-experience { break-inside: avoid; } }
 
 /* Colors inspired by the SPVM research poster. */
-:root { --paper: #f7f9fc; --paper-dark: #eaf1f7; --ink: #102c4b; --muted: #52677b; --green: #103153; --green-dark: #0a223d; --orange: #227fba; --line: #cddbe6; }
 a { text-decoration-color: #9abbd2; }
 .intro, .post-content { color: #344d62; }
 .art-card { background: #fff; box-shadow: 16px 16px 0 #dcebf5; }
@@ -265,5 +264,130 @@ a { text-decoration-color: #9abbd2; }
 @media (max-width: 440px) { .topbar { flex-wrap: wrap; gap: 12px; padding: 16px 0; } }
 
 .card-projects { background: #dcebf5; }
-.feature-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-@media (max-width: 760px) { .feature-grid { grid-template-columns: 1fr; } }
+
+
+
+/* Shared layout, reading rhythm, and keyboard accessibility. */
+:root { --reading-width: 76ch; --space-unit: 8px; --surface: #fff; }
+*, *::before, *::after { box-sizing: border-box; }
+.site-shell { width: min(1160px, calc(100% - 48px)); }
+.site-main { max-width: var(--reading-width); margin: 0 auto; padding: 48px 0; }
+.site-main:has(.cv-title), .site-main:has(.post-entries), .site-main:has(.conference-gallery) { max-width: 960px; }
+h1, h2, h3, h4 { color: var(--ink); overflow-wrap: anywhere; }
+.post-header h1 { margin-top: 0; }
+.post-content { font-size: 16px; overflow-wrap: anywhere; }
+.post-content h2 { line-height: 1.3; }
+.post-content h3, .post-content h4 { line-height: 1.4; }
+.post-content p, .post-content ul, .post-content ol { margin-bottom: 1.25em; }
+img, video, svg { max-width: 100%; }
+img { height: auto; }
+figure { max-width: 100%; }
+figcaption { color: var(--muted); font-size: 13px; line-height: 1.6; }
+pre { max-width: 100%; overflow-x: auto; padding: 20px; background: var(--paper-dark); border: 1px solid var(--line); }
+code, pre { font-family: var(--mono); font-size: .9em; }
+.post-content table { display: block; max-width: 100%; overflow-x: auto; border-collapse: collapse; }
+th, td { padding: 10px 14px; border: 1px solid var(--line); text-align: left; }
+.post-meta time + time::before { content: ' · '; }
+.post-meta { display: flex; flex-wrap: wrap; gap: 8px; }
+blockquote { margin-left: 0; padding-left: 20px; border-left: 3px solid var(--line); }
+.main-nav a { padding: 9px 0; }
+.main-nav a[aria-current="page"] { text-decoration: underline; text-underline-offset: 7px; text-decoration-thickness: 2px; }
+a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px solid #227fba; outline-offset: 4px; }
+.skip-link { position: fixed; left: 16px; top: -100px; z-index: 10; padding: 12px 18px; background: var(--ink); color: white; }
+.skip-link:focus { top: 12px; }
+#main-content:focus { outline: none; }
+.about-portrait + p { margin-top: 0; }
+.post-content::after { content: ''; display: block; clear: both; }
+@media (max-width: 760px) {
+ .feature-grid { grid-template-columns: 1fr; }
+ .site-shell { width: calc(100% - 36px); }
+ .topbar { gap: 16px; flex-wrap: wrap; padding: 16px 0; }
+ .main-nav { gap: 18px; flex-wrap: wrap; }
+ .main-nav a { font-size: 13px; }
+ .site-main { padding: 32px 0; }
+ .home-footer { gap: 16px; flex-wrap: wrap; }
+ .cv-experience .row { flex-wrap: wrap; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition: none !important; animation: none !important; } }
+@media print { .topbar, .skip-link, .site-footer { display: none !important; } .site-shell { width: 100%; } .site-main { max-width: none; } body { background: white; color: black; } }
+
+/* Contain the decorative orbit at intermediate tablet widths. */
+.hero-art { overflow: clip; }
+
+/* QA: keep recovered code line numbers separate from selectable commands. */
+.chroma .line { display: flex; }
+.chroma .ln { flex: 0 0 3ch; padding-right: 1ch; color: var(--muted); user-select: none; }
+.chroma .cl { flex: 1; white-space: pre; }
+.highlight-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 12px 0 8px; }
+.highlight-toolbar button { padding: 7px 12px; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 3px; cursor: pointer; }
+.post-content h1 { font: 500 clamp(32px, 5vw, 50px)/1.15 var(--serif); letter-spacing: -.03em; }
+
+/* Keep the dark conference card link readable during pointer and keyboard interaction. */
+.featured-writing .round-link:is(:hover, :focus-visible) { color: var(--green); background: var(--surface); outline-color: var(--surface); }
+
+/* Avoid a low-contrast midpoint while foreground and background colors swap. */
+.featured-writing .round-link { transition: none; }
+
+/* Undergraduate thesis: scoped research portfolio layouts. */
+.thesis-page { padding: 32px 0 48px; }
+.thesis-breadcrumb { margin-bottom: 36px; color: var(--muted); font-size: 13px; }
+.thesis-breadcrumb span { padding: 0 10px; }
+.thesis-hero { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); align-items: center; gap: 48px; padding: 16px 0 52px; }
+.thesis-hero h1 { margin: 0; font: 500 clamp(30px, 3.7vw, 47px)/1.18 var(--serif); letter-spacing: -.025em; }
+.thesis-page .eyebrow { font-size: 11px; }
+.thesis-lead { color: #344d62; font-size: 17px; line-height: 1.8; margin: 24px 0; }
+.thesis-authors { color: var(--muted); font-size: 13px; }
+.thesis-tags { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; margin: 22px 0 0; list-style: none; }
+.thesis-tags li { border: 1px solid var(--line); padding: 5px 9px; font-size: 11px; color: var(--muted); }
+.thesis-structure, .result-figure, .thesis-poster { margin: 0; min-width: 0; }
+.thesis-structure img, .thesis-listing-image img { width: 100%; display: block; background: var(--surface); }
+.thesis-structure img { border: 1px solid var(--line); }
+.thesis-structure figcaption { margin-top: 14px; }
+.figure-original { display: block; margin-top: 10px; font-weight: 600; font-size: 12px; }
+.figure-image { display: block; }
+.figure-image:focus-visible { outline-offset: 5px; }
+.thesis-jump { display: flex; flex-wrap: wrap; gap: 12px 30px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 18px 0; font-size: 13px; }
+.thesis-jump a { padding: 5px 0; }
+.thesis-section { padding: 72px 0; border-bottom: 1px solid var(--line); scroll-margin-top: 24px; }
+.thesis-section h2 { margin: 0 0 26px; font: 500 clamp(28px, 3.4vw, 40px)/1.2 var(--serif); letter-spacing: -.025em; }
+.thesis-section h3 { font: 500 23px/1.35 var(--serif); margin-top: 0; }
+.thesis-section p { color: #344d62; line-height: 1.85; }
+.thesis-overview { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; }
+.thesis-overview > p { margin-top: 0; font-size: 18px; }
+.thesis-methods { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; padding-left: 24px; margin-top: 36px; }
+.thesis-methods li { padding: 14px 14px 0 0; }
+.thesis-methods li::marker { color: var(--green); font-family: var(--mono); }
+.thesis-methods p { font-size: 14px; }
+.thesis-section-intro { max-width: 70ch; }
+.thesis-result { display: grid; grid-template-columns: minmax(0, .75fr) minmax(0, 1.25fr); align-items: start; gap: 32px; padding: 56px 0; border-bottom: 1px solid var(--line); scroll-margin-top: 24px; }
+.thesis-result:last-child { padding-bottom: 0; border-bottom: 0; }
+.thesis-result h3 { margin: 0 0 26px; font: 500 clamp(26px, 2.7vw, 33px)/1.2 var(--serif); letter-spacing: -.025em; }
+.result-figure { padding: 18px; border: 1px solid var(--line); background: var(--surface); }
+.result-figure img { display: block; width: 100%; height: auto; }
+.result-figure figcaption { padding-top: 16px; color: #405a70; font-size: 13px; line-height: 1.75; }
+.result-comparison, .thesis-source-note { grid-column: 1 / -1; }
+.thesis-source-note { max-width: 82ch; font-size: 13px; margin: 0; }
+.result-comparison { border: 1px solid var(--line); padding: 18px 22px; background: var(--paper-dark); }
+.result-comparison summary { cursor: pointer; font-weight: 600; color: var(--ink); }
+.thesis-gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; padding-top: 24px; }
+.thesis-presentation { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, .75fr); gap: 64px; align-items: start; }
+.thesis-poster img { display: block; width: 100%; border: 1px solid var(--line); }
+.thesis-poster figcaption { margin-top: 12px; }
+.thesis-listing h2 a { color: var(--ink); text-decoration: none; }
+.thesis-listing h2 a:hover { text-decoration: underline; }
+.thesis-listing-image { align-self: center; border: 1px solid var(--line); }
+@media (max-width: 900px) {
+ .thesis-hero, .thesis-overview, .thesis-result, .thesis-presentation { grid-template-columns: 1fr; gap: 28px; }
+ .thesis-structure { max-width: 680px; }
+ .thesis-methods { grid-template-columns: 1fr; gap: 12px; }
+ .thesis-methods li { padding-top: 0; }
+ .thesis-poster { max-width: 500px; }
+ .thesis-result { padding: 40px 0; }
+ .thesis-section { padding: 48px 0; }
+}
+@media (max-width: 600px) {
+ .thesis-gallery { grid-template-columns: 1fr; }
+ .result-figure { padding: 12px; }
+ .result-comparison { padding: 16px; }
+ .thesis-jump { gap: 12px 22px; }
+}
